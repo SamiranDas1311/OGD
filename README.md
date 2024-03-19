@@ -37,7 +37,7 @@ Tags- Classification, Semantic segmentation, Multisensor
 data fusion
 Link- https://doi.org/10.5281/zenodo.7806929
 Dataset for Lithological
-Mapping
+Mapping\\
 Location- California
 Description-
 This dataset contains over one thousand high-resolution
