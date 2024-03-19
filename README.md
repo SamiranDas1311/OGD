@@ -13,7 +13,6 @@ D. Tags- Mention specific keywords that give an overview of the data, and facili
 
 E. Link- It mentions the links to the websites hosting the datasets. We intend to maintain and update the links from time to time.
 
-
 List of Datasets in OGD
 
 Dataset Description
@@ -25,7 +24,7 @@ successfully contributed in the creation of automated
 methods of recognizing patterns in high-dimensional data.
 Remote sensing data covers wide geographical areas and
 could be used to solve the problem of the demand of various
-in-situ data. Lithologicall mapping using remotely sensed
+in-situ data. Lithological mapping using remotely sensed
 data is one of the most challenging applications of ML
 algorithms. In the framework of the “AI for Geoapplications”
 project , ML and especially Deep Learning (DL)
@@ -35,25 +34,31 @@ data in various pilot areas in Greece. In order to train and
 test the various ML algorithms, a dataset consisting of 27
 ROIs selected mainly from low -vegetated areas, that cover
 2% of the total area of Greece was created.
+
 Tags- Classification, Semantic segmentation, Multisensor
 data fusion
+
 Link- https://doi.org/10.5281/zenodo.7806929
-Dataset for Lithological
-Mapping\\
+
+Dataset for Lithological Mapping
+
 Location- California
+
 Description-
+
 This dataset contains over one thousand high-resolution
 images of aerial photographs taken in southern California.
 The photographs were taken from a plane and are meant as
 a reasonable facsimile for satellite images.
 Images are grouped into sets of five, each of which have the
-same setId. Each image in a set was taken on a different day
+same set. Each image in a set was taken on a different day
 (but not necessarily at the same time each day). The images
 for each set cover approximately the same area but are not
 exactly aligned. Images are named according to the
 convention setId_day. In the training set, the images have
 the correct day ordering. In the test set, the images are
 scrambled.
+
 This competition asks you order the scrambled images in the
 test set. This is anticipated to be a challenging task. Some
 locations will provide very little evidence of changes from day
@@ -62,7 +67,9 @@ an ordering, such as parked or moving vehicles, differences
 in bodies of water, or changes in shadows. On account of the
 difficulty, you may use both manual and computer-based
 analysis in this competition.
+
 File/Folder descriptions
+
 For convenience, we have provided both lossless, highquality
 images (train/test) as well as the same images in a
 compressed jpeg format (train_sm/test_sm).
@@ -72,12 +79,17 @@ test - 8-bit tif images of the test set
 test_sm - compressed (lossy) jpegs of the training set
 sample_submission.csv - a sample submission file in the
 correct format
+
 Tags- Mining, Remote Sensing, Satellite Image, Aerial
 Photograph, Exploration, Minerals
+
 Link- https://www.kaggle.com/competitions/draper-satelliteimage-
 chronology/data
+
 Draper Satellite Image Chronology
+
 Global Coal Mine Tracker Location- Worldwide
+
 Description-
 The Global Coal Mine Tracker (GCMT) is a worldwide
 dataset of coal mines and proposed projects. The tracker
@@ -100,20 +112,31 @@ project methodology is available here. To receive
 notifications from this project, please sign up for our mailing
 list. If you have questions about this project, please contact
 the Project Manager, Ryan Driskell Tate.
+
 Tags- Coal Mine, Minerals, Mining
+
 Link- https://globalenergymonitor.org/projects/global-coalmine-
-tracker/
+tracker
+
 Location- Worldwide
+
 Description-
+
 This portal brings together all of the disclosures that mining
 companies have made about their tailings storage facilities. It
-gives communities, investors, regulators and the media
+gives communities, investors, regulators, and the media
 unprecedented access to information about mine waste.
+
 Tags- Tailings, Mine, Mineral, Storage Facilities
-Link- Datalink-https://tailing.grida.no/map/analysis/
+
+Link- Datalink-https://tailing.grida.no/map/analysis
+
 Global Tailings Portal
+
 Global Mining Dataset Location- Worldwide
+
 Description-
+
 This data set provides spatially explicit estimates of the area
 directly used for surface mining on a global scale. It contains
 more than 21,000 polygons of activities related to mining,
@@ -130,13 +153,16 @@ Satellite and Bing Imagery. The derived polygons cover the
 direct land used by mining activities, including open cuts,
 tailing dams, waste rock dumps, water ponds, and
 processing infrastructure.
+
 The ZIP file contains:
+
 The main data set consists of a GeoPackage (GPKG) file,
 including the following variables: ISO3_CODE<string>,
 COUNTRY_NAME<string>, AREA<double> in squared
 kilometres, FID<integer> with the feature ID, and
 geom<polygon> in geographical coordinates WGS84.
 global_mining_polygons_v1.gpkg
+
 The summary of the mining area per country is available in
 comma-separated values (CSV) file, including the following
 variables: ISO3_CODE<string>, COUNTRY_NAME<string>,
@@ -156,33 +182,42 @@ REFERENCE<string>, FID<integer> with the feature ID, and
 geom<point> in geographical coordinates WGS84. The
 overall accuracy calculated from the control points was
 88.4%. For other accuracy metrics see the source link.
+
 Tags: Mines, Mineral, Shapefile, Location, Remote Sensing
 Image
+
 Link: https://doi.pangaea.de/10.1594/PANGAEA.910894
-Quality Prediction in a
-Mining Process
+
+Quality Prediction in a Mining Process
+
 Description-
-It is not always easy to find databases from real world
-manufacturing plants, specially mining plants. So, I would
+
+It is not always easy to find databases from real-world
+manufacturing plants, especially mining plants. So, I would
 like to share this database with the community, which comes
 from one of the most important parts of a mining process: a
 flotation plant!
-PLEASE HELP ME GET MORE DATASETS LIKE THIS
-FILLING A 30s SURVEY:
+
 The main goal is to use this data to predict how much
 impurity is in the ore concentrate. As this impurity is
 measured every hour, if we can predict how much silica
 (impurity) is in the ore concentrate, we can help the
 engineers, giving them early information to take actions
 (empowering!). Hence, they will be able to take corrective
-actions in advance (reduce impurity, if it is the case) and also
+actions in advance (reduce impurity, if that is the case) and also
 help the environment (reducing the amount of ore that goes
 to tailings as you reduce silica in the ore concentrate).
+
 Type- Mining, Minerals, Ore, Plant, Manufacturing
-Link- https://www.kaggle.com/datasets/edumagalhaes/
+
+Link- https://www.kaggle.com/datasets/edumagalhaes
+
 quality-prediction-in-a-mining-process
+
 SNL Metals & Mining Location- Worldwide
+
 Description-
+
 The SNL Metals and Mining dataset allows you to explore
 the in-depth coverage on mining properties and companies,
 covering a wide array of commodities. Keep track of ongoing
