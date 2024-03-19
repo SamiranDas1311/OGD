@@ -1888,14 +1888,16 @@ well NWG 55-29 was enhanced by two orders of magnitude.
 This submission includes all of the files and reports
 associated with the geophysical exploration, stimulation, and
 monitoring included in the scope of the project.
-Type- Well-log, Seismic, Bedrock
-Link- https://catalog.data.gov/dataset/newberry-well-55-29-
-stimulation-data
-Geophysical and Geospatial
-Shapefiles from the Milford, Utah
-FORGE Project
-Location- Utah, USA
-Description-
+
+**Type-** Well-log, Seismic, Bedrock
+
+**Link-** https://catalog.data.gov/dataset/newberry-well-55-29-stimulation-data
+
+**Geophysical and Geospatial Shapefiles from the Milford, UtahFORGE Project**
+
+**Location-** Utah, USA
+
+**Description-**
 Three shapefiles in this submission show the position of
 proposed seismic line surveys. The mid-crustal velocity
 anomaly file shows the extent of an anomalously low P-wave
@@ -1904,13 +1906,16 @@ extent of known hydrothermal systems in the Roosevelt Hot
 Springs area. Another file shows the location of the proposed
 water pipeline to pump water from the supply wells to the
 deep drill site.
-Tags- Geophysics, Geospatial, Subsurface
-Link- https://catalog.data.gov/dataset/geophysical-andgeospatial-
-shapefiles-from-the-milford-utah-forge-project
-Newberry Well 55-29 Stimulation
-Data 2014
-Location- Newell, USA
-Description-
+
+**Tags-** Geophysics, Geospatial, Subsurface
+
+**Link-** https://catalog.data.gov/dataset/geophysical-andgeospatial-shapefiles-from-the-milford-utah-forge-project
+
+**Newberry Well 55-29 Stimulation Data 2014**
+
+**Location-** Newell, USA
+
+**Description-**
 The Newberry Volcano EGS Demonstration in central
 Oregon, a 5 year project begun in 2010, tests recent
 technological advances designed to reduce the cost of
@@ -1946,13 +1951,16 @@ indicates partial blocking and creation of flow zones near the
 bottom of the well. This submission includes all of the files
 and reports associated with the stimulation, pressure testing,
 and monitoring included in the scope of the project.
-Tags- Well log, Bedrock, Seismic, Drillcore
-Link- https://catalog.data.gov/dataset/newberry-well-55-29-
-stimulation-data-2014-5f263
-Seismic Data from Roosevelt Hot
-Springs, Utah FORGE Study Area
-Location- Utah, USA
-Description-
+
+**Tags-** Well log, Bedrock, Seismic, Drillcore
+
+**Link-** https://catalog.data.gov/dataset/newberry-well-55-29-stimulation-data-2014-5f263
+
+**Seismic Data from Roosevelt Hot Springs, Utah FORGE Study Area**
+
+**Location-** Utah, USA
+
+**Description-**
 This set of data contains raw and processed 2D and 3D
 seismic data from the Utah FORGE study area near
 Roosevelt Hot Springs. The zipped archives numbered from
@@ -1960,12 +1968,16 @@ Roosevelt Hot Springs. The zipped archives numbered from
 gatherers SEG-Y files. The zipped archives numbered from
 1-100C to 1001-1122C contain 3D seismic correlated shot
 gatherers SEG-Y files. Other data have intuitive names.
-Tags- Seismic, Well-log, Bedrock,
-Link- https://gdr.openei.org/submissions/1015
-Silver Peak Innovative Exploration
-Project
-Location- Esmeralda County, Nevada, USA
-Description-
+
+**Tags-** Seismic, Well-log, Bedrock,
+
+**Link- ** https://gdr.openei.org/submissions/1015
+
+**Silver Peak Innovative Exploration Project**
+
+**Location-** Esmeralda County, Nevada, USA
+
+**Description-**
 Data generated from the Silver Peak Innovative Exploration
 Project, in Esmeralda County, Nevada, encompasses a
 deep-circulation (amagmatic) meteoric-geothermal system
@@ -1974,7 +1986,7 @@ travertine in western Clayton Valley (lithium-rich brines from
 which have been mined for several decades). Spring- and
 shallow-borehole thermal-water geochemistry and
 geothermometry suggest that a Silver Peak geothermal
-reservoir is very likely to attain the temperature range 260-
+reservoir is very likely to attain a temperature range 260-
 300oF (~125-150oC) , and may reach 300-340oF
 (~150-170oC) or higher (GeothermEx, Inc., 2006). Results of
 detailed geologic mapping, structural analysis, and
@@ -1997,16 +2009,18 @@ low-angle detachment fault from an upper plate of severely
 stretched and fractured structural slices of brittle, Proterozoic
 to Miocene-age lithologies. From a geothermal perspective,
 the detachment fault itself and some of the upper-plate
-structural sheets could function as important, if secondary,
-subhorizontal thermal-fluid aquifers in a Silver Peak
+structural sheets could function as important, if secondary, subhorizontal thermal-fluid aquifers in a Silver Peak
 hydrothermal system.
-Tags- Hydrothermal, Geothermal, Minerals
-Link- https://catalog.data.gov/dataset/silver-peak-innovativeexploration-
-project-ram-power-inc-fa599
-Fallon FORGE: Geophysics and
-Geochemistry
-Location- Silver Peak, USA
-Description-
+
+**Tags-** Hydrothermal, Geothermal, Minerals
+
+**Link-** https://catalog.data.gov/dataset/silver-peak-innovativeexploration-project-ram-power-inc-fa599
+
+**Fallon FORGE: Geophysics and Geochemistry**
+
+**Location-** Silver Peak, USA
+
+**Description-**
 The data is associated to the Fallon FORGE project and
 includes mudlogs for all wells used to characterize the
 subsurface, as wells as gravity, magnetotelluric, earthquake
@@ -2014,13 +2028,16 @@ seismicity, and temperature data from the Navy GPO and
 Ormat. Also included are geologic maps from the USGS and
 Nevada Bureau of Mines and Geology for the Fallon, NV
 area.
-Tags- Geology, Geophysics, Well-log, Geochemistry
-Link- https://catalog.data.gov/dataset/fallon-forgegeophysics-
-and-geochemistry
-Brady's Geothermal Field Nodal
-Seismometers Metadata
-Location- Multiple
-Description-
+
+**Tags-** Geology, Geophysics, Well-log, Geochemistry
+
+**Link-** https://catalog.data.gov/dataset/fallon-forgegeophysics-and-geochemistry
+
+**Brady's Geothermal Field Nodal Seismometers Metadata**
+
+**Location-** Multiple
+
+**Description-**
 Metadata for the nodal seismometer array deployed at the
 POROTOMO's Natural Laboratory in Brady Hot Spring,
 Nevada during the March 2016 testing. Metadata includes
@@ -2056,13 +2073,18 @@ Potential, Gamma ray, Bulk density, Neutron and density
 porosity data. The data can be used to experiment and train
 small deep learning models, Which can further be
 transferred to big datasets.
-Type- Well-log, Geology, Seismic,
-Link- http://www.kgs.ku.edu
+
+**Type-** Well-log, Geology, Seismic,
+
+**Link-** http://www.kgs.ku.edu
+
 https://www.kaggle.com/datasets/prateekvyas/well-log-data
-Newberry Well 55-29 Stimulation
-Data 2014
-Location- Newell, USA
-Description-
+
+**Newberry Well 55-29 Stimulation Data 2014**
+
+**Location**- Newell, USA
+
+**Description-**
 The Newberry Volcano EGS Demonstration in central
 Oregon, a 5 year project begun in 2010, tests recent
 technological advances designed to reduce the cost of
@@ -2098,14 +2120,16 @@ indicates partial blocking and creation of flow zones near the
 bottom of the well. This submission includes all of the files
 and reports associated with the stimulation, pressure testing,
 and monitoring included in the scope of the project.
-Tags- Well-log, Seismic,Stimulation
-Link- https://data.world/us-doe-gov/49b68478-9eb9-48b4-
-a105-5d7e43b7bfab
-Athabasca Oil Sands Data
-McMurray/Wabiskaw Oil Sands
-Deposit - Electronic Data
-Location-
-Description-
+
+**Tags-** Well-log, Seismic,Stimulation
+
+**Link-** https://data.world/us-doe-gov/49b68478-9eb9-48b4-a105-5d7e43b7bfab
+
+**Athabasca Oil Sands Data McMurray/Wabiskaw Oil SandsDeposit - Electronic Data**
+
+**Location-**
+
+**Description-**
 This is the digital database that is described in our Open File
 Report 1994-14. The database is implemented on a VAX
 station 4000 using INGRES, a commercially available
@@ -2116,17 +2140,17 @@ the McMurray Formation and the overlying Wabiskaw
 Member of the Clearwater Formation in the Athabasca Oil
 Sands Area. The data that accompany this report are one of
 the most significant products of the project and will hopefully
-facilitate future development of the oil sands.
-Tagsascii
-file bitumen data digital data geology lithology log
+facilitate future development of the oil sands.Tagsascii file bitumen data digital data geology lithology log
 analysis natural gas oil sands porosity stratigraphic
-picks stratigraphy volume of shale wabiskaw water
-saturation well log data
-Link- https://ags.aer.ca/publication/spe-006
-Explore Queensland`s mining
-and exploration data
-Location- Queensland, Australia
-Description-
+picks stratigraphy volume of shale wabiskaw water saturation well log data
+
+**Link-** https://ags.aer.ca/publication/spe-006
+
+**Explore Queensland`s mining and exploration data**
+
+**Location-** Queensland, Australia
+
+**Description-**
 Featured datasets
 Kamilaroi
 61,368 line km regional airborne magnetic and radiometric
@@ -2166,45 +2190,58 @@ PROJECT 2016
 A Kingdom software project created by GSQ in 2016 as part
 of the Seismic Header Update Project (SHUP) contained all
 the SEGY included in the project.Data type
+
 DatasetCreated-07 Dec 2021
+
 Data Format-ZIP
+
 Explore by data type
-Spectral
-27
-Seismic
-1357
+Spectral0 27
+
+Seismic- 1357
 Report
 94267
+
 Radiometric
 765
+
 Map collection
 10726
+
 Magnetotelluric
 16
+
 Magnetic
 1015
+
 Gravity-gradiometry
 19
+
 Gravity
 113
+
 Geochemistry
 7275
+
 Electromagnetic
 157
+
 Electrical
 4
 Dataset
 91
 Borehole
 60397
-Tags- Magnetic, Geology, Mining, Geophysics,
-Link- https://geoscience.data.qld.gov.au/data/dataset
-National Offshore
-Petroleum Information
-Management System
-(NOPIMS)
-Location- Multiple
-Description-
+
+**Tags-** Magnetic, Geology, Mining, Geophysics,
+
+**Link-** https://geoscience.data.qld.gov.au/data/dataset
+
+**National Offshore Petroleum Information Management System (NOPIMS)**
+
+**Location-** Multiple
+
+**Description-**
 Geoscience Australia has developed the National Offshore
 Petroleum Information Management System (NOPIMS) as
 an online data discovery and delivery system for all
@@ -2234,6 +2271,7 @@ reels and large SEGY datasets will be progressively
 migrated to NOPIMS In the meantime, these items can be
 requested directly from Geoscience Australia by
 contacting AusGeoData@ga.gov.au
+
 Key Features
 • No registration required
 • Access to metadata for over 1 million asset
@@ -2241,10 +2279,14 @@ Key Features
 for ease of search
 • Access to the Core Information Management System (CIMS) via
 the Core Library tab
-Tags- Geophysics, Petroleum, Geoscience
-Link- https://nopims.dmp.wa.gov.au/Nopims/
-Poseidon NW Australia Location- New South Wales, Australia
-Description-
+
+**Tags-** Geophysics, Petroleum, Geoscience
+
+**Link-** https://nopims.dmp.wa.gov.au/Nopims/
+
+**Poseidon NW Australia Location- New South Wales, Australia**
+
+**Description-**
 The Poseidon 3D Marine Surface Seismic Survey (Poseidon
 3D) was acquired
 during the period October 2009 to March 2010 within Browse
@@ -2272,15 +2314,14 @@ an area of 2,828km2 (Figure 2) and consists of 172 prime
 sail lines and 21 orthogonal lines in the area adjacent to the
 Seringapatam reef (appendix 1). The survey was acquired
 with sail lines oriented 130° / 310°.
-Tags- Seismic, 3D Modelling, Well log, Petrophysics
-Link- https://drive.google.com/drive/folders/0B7brcfeGK8Cbk9ueHA0QUU4Zjg?
-resourcekey=0-
-njGYrj9ZlE751Oi1-89sOg
-South Australian
-Resources Information
-Gateway
-Location
-Description-
+
+**Tags-** Seismic, 3D Modelling, Well log, Petrophysics
+
+**Link-** https://drive.google.com/drive/folders/0B7brcfeGK8Cbk9ueHA0QUU4Zjg?resourcekey=0-njGYrj9ZlE751Oi1-89sOg
+
+**South Australian Resources Information Gateway**
+
+**Description-**
 South Australian Resources Information
 Gateway. SARIG is a digital platform that delivers state
 wide geoscientific and spatial data.
