@@ -53,20 +53,14 @@ convention setId_day. In the training set, the images have
 the correct day ordering. In the test set, the images are
 scrambled.
 
-This competition asks you order the scrambled images in the
-test set. This is anticipated to be a challenging task. Some
-locations will provide very little evidence of changes from day
-to day. Other locations will have subtle changes that hint at
-an ordering, such as parked or moving vehicles, differences
-in bodies of water, or changes in shadows. On account of the
-difficulty, you may use both manual and computer-based
-analysis in this competition.
+This competition asks you order the scrambled images in the test set. This is anticipated to be a challenging task. Some
+locations will provide very little evidence of changes from day to day. Other locations will have subtle changes that hint at
+an ordering, such as parked or moving vehicles, differences in bodies of water, or changes in shadows. On account of the
+difficulty, you may use both manual and computer-based analysis in this competition.
 
 File/Folder descriptions
 
-For convenience, we have provided both lossless, highquality
-images (train/test) as well as the same images in a
-compressed jpeg format (train_sm/test_sm).
+For convenience, we have provided both lossless, high-quality images (train/test) as well as the same images in a compressed jpeg format (train_sm/test_sm).
 train - 8-bit tif images of the training set
 train_sm - compressed (lossy) jpegs of the training set
 test - 8-bit tif images of the test set
@@ -248,17 +242,13 @@ Satellite and Bing Imagery. The derived polygons cover the
 direct land used by mining activities, including open cuts,
 tailing dams, waste rock dumps, water ponds, and
 processing infrastructure.
+
 The ZIP file contains:
-The main data set consists of a GeoPackage (GPKG) file,
-including the following variables: ISO3_CODE<string>,
-COUNTRY_NAME<string>, AREA<double> in squared
-kilometres, FID<integer> with the feature ID, and
-geom<polygon> in geographical coordinates WGS84.
-global_mining_polygons_v1.gpkg
-The summary of the mining area per country is available in
-comma-separated values (CSV) file, including the following
-variables: ISO3_CODE<string>, COUNTRY_NAME<string>,
-AREA<double> in squared kilometers, and
+The main data set consists of a GeoPackage (GPKG) file, including the following variables: ISO3_CODE<string>,
+COUNTRY_NAME<string>, AREA<double> in squared kilometres, FID<integer> with the feature ID, and
+geom<polygon> in geographical coordinates WGS84. global_mining_polygons_v1.gpkg
+The summary of the mining area per country is available in comma-separated values (CSV) file, including the following
+variables: ISO3_CODE<string>, COUNTRY_NAME<string>, AREA<double> in squared kilometers, and
 N_FEATURES<integer> number of mapped features.
 global_mining_area_per_country_v1.csv
 Grid data sets with the mining area per cell were derived
@@ -278,76 +268,70 @@ REFERENCE<string>, FID<integer> with the feature ID, and
 geom<point> in geographical coordinates WGS84. The
 overall accuracy calculated from the control points was
 88.4%. For other accuracy metrics see the source link.
+
 validation_points_v1.gpkg
+
 Link: https://doi.pangaea.de/10.1594/PANGAEA.910894
+
 Always use the following citation when using this data:
+
 Maus, Victor; Giljum, Stefan; Gutschlhofer, Jakob;
-Global-scale mining
-polygons (Version 2)
+
+Global-scale mining polygons (Version 2)
+
 Location- Worldwide
+
 Description-
-This dataset updates the global-scale mining polygons
-(Version 1) available from https://doi.org/10.1594/
-PANGAEA.910894. It contains 44,929 polygon features,
-covering 101,583 km² of land used by the global mining
-industry, including large-scale and artisanal and small-scale
-mining. The polygons cover all ground features related to
-mining, .e.g open cuts, tailing dams, waste rock dumps,
-water ponds, processing infrastructure, and other land cover
-types related to the mining activities. The data was derived
-using a similar methodology as the first version by visual
-interpretation of satellite images. The study area was limited
-to a 10 km buffer around the 34,820 mining coordinates
-reported in the S&P metals and mining database. We
-digitalized the mining areas using the 2019 Sentinel-2
-cloudless mosaic with 10 m spatial resolution (https://
-s2maps.eu by EOX IT Services GmbH - Contains modified
-Copernicus Sentinel data 2019). We also consulted Google
-Satellite and Microsoft Bing Imagery, but only as additional
-information to help identify land cover types linked to the
-mining activities. The main data set consists of a
-GeoPackage (GPKG) file, including the following variables:
-ISO3_CODE<string>, COUNTRY_NAME<string>,
-AREA<double> in squared kilometres, FID<integer> with the
-feature ID, and geom<polygon> in geographical coordinates
-WGS84. The summary of the mining area per country is
-available in comma-separated values (CSV) file, including
-the f o l l o w i n g v a r i a b l e s : ISO3_CODE<string>,
-COUNTRY_NAME<string>, AREA<double> in squared
-kilometres, and N_FEATURES<integer> number of mapped
-features. Grid data sets with the mining area per cell were
-derived from the polygons. The grid data is available at 30
-arc-second resolution (approximately 1x1 km at the equator),
-5 arc-minute (approximately 10x10 km at the equator), and
-30 arc-minute resolution (approximately 55x55 km at the
-equator). We performed an independent validation of the
-mining data set using control points. For that, we draw 1,000
-random samples stratified between two classes: mine and
-no-mine. The control points are also available as a GPKG
-fil e , including the variables: MAPPED<string>,
-REFERENCE<string>, FID<integer> with the feature ID, and
-geom<point> in geographical coordinates WGS84. The
-overall accuracy calculated from the control points was
-88.3%, Kappa 0.77, F1 score 0.87, producer's accuracy of
+
+This dataset updates the global-scale mining polygons (Version 1) available from https://doi.org/10.1594/
+PANGAEA.910894. It contains 44,929 polygon features, covering 101,583 km² of land used by the global mining
+industry, including large-scale and artisanal and small-scale mining. The polygons cover all ground features related to
+mining, .e.g open cuts, tailing dams, waste rock dumps, water ponds, processing infrastructure, and other land cover
+types related to the mining activities. The data was derived using a similar methodology as the first version by visual
+interpretation of satellite images. The study area was limited to a 10 km buffer around the 34,820 mining coordinates
+reported in the S&P metals and mining database. We digitalized the mining areas using the 2019 Sentinel-2
+cloudless mosaic with 10 m spatial resolution (https:// s2maps.eu by EOX IT Services GmbH - Contains modified
+Copernicus Sentinel data 2019). We also consulted Google Satellite and Microsoft Bing Imagery, but only as additional
+information to help identify land cover types linked to the mining activities. The main data set consists of a
+GeoPackage (GPKG) file, including the following variables: ISO3_CODE<string>, COUNTRY_NAME<string>,
+AREA<double> in squared kilometres, FID<integer> with the feature ID, and geom<polygon> in geographical coordinates
+WGS84. The summary of the mining area per country is available in comma-separated values (CSV) file, including
+the f o l l o w i n g v a r i a b l e s : ISO3_CODE<string>, COUNTRY_NAME<string>, AREA<double> in squared
+kilometres, and N_FEATURES<integer> number of mapped features. Grid data sets with the mining area per cell were
+derived from the polygons. The grid data is available at 30 arc-second resolution (approximately 1x1 km at the equator),
+5 arc-minute (approximately 10x10 km at the equator), and 30 arc-minute resolution (approximately 55x55 km at the
+equator). We performed an independent validation of the mining data set using control points. For that, we draw 1,000
+random samples stratified between two classes: mine and no-mine. The control points are also available as a GPKG
+file, including the variables: MAPPED<string>, REFERENCE<string>, FID<integer> with the feature ID, and geom<point> in geographical coordinates WGS84. The
+overall accuracy calculated from the control points was 88.3%, Kappa 0.77, F1 score 0.87, producer's accuracy of
 class mine 78.9 % and user's accuracy of class mine 97.2 %.
+
 Link- https://doi.pangaea.de/10.1594/PANGAEA.942325
-Minerals Backbone of
-Economy - (World Mining
-Data)
+
+Minerals Backbone of Economy - (World Mining Data)
+
 Location- Worldwide
+
 Description-
+
 Mineral Raw Materials are mineral constituents of the earth's
 crust which are of economic value. In the most
 comprehensive sense this includes the so-called "mine
 output" as well as the output from processing at or near the
 mines (for instance, the up-grading of ores to concentrates).
+
 Tags- Minerals, Mining, Economy, Natural Resource
+
 Link- https://www.world-mining-data.info/?
+
 World_Mining_Data___Data_Section
-Mines and Mineral
-Resources
+
+Mines and Mineral Resources
+
 Location- Multiple
+
 Description-
+
 This dataset represents mineral resource mines, excluding
 sand and gravel quarries. Only mines believed to be
 operational are included. To enable a first responder or law
@@ -357,27 +341,34 @@ the main "haul road" meets the nearest public road. This
 location may be a considerable distance from the mine pit or
 shaft, but from this point on the ground it should be obvious
 how to drive to the mine itself.
+
 Type- Minerals, Mining, Economy, Natural Resource
+
 Link- https://data.world/dhs/mines-and-mineral-resources
-Greece Mining
-Production
+
+Greece Mining Production
+
 Location- Greece
+
 Description-
+
 Mining production in Greece increased 6.40 percent in
 February of 2023 over the same month in the previous year.
 Mining Production in Greece averaged -2.11 percent from
 2001 until 2023, reaching an all time high of 47.90 percent in
 April of 2021 and a record low of -28.30 percent in January
-of 2015. This page provides - Greece Mining Productionactual
+of 2015. This page provides - Greece Mining Production actual
 values, historical data, forecast, chart, statistics,
 economic calendar and news.
-Tags- Minerals, Mining, Economy, Natural Resource,
-Production
+
+Tags- Minerals, Mining, Economy, Natural Resource, Production
+
 Link- https://tradingeconomics.com/greece/miningproduction
-Coal Mining Operation -
-Post Mining Treatment
-Facility
+
+Coal Mining Operation -Post Mining Treatment Facility
+
 Location- Multiple
+
 Description-
 Represents the Primary Facility type Coal Mining Operation
 (CMO) point features for post mining treatment. Post-mining
@@ -396,11 +387,17 @@ discharge. New technologies, including alkaline
 addition and special handling of acid producing material, are
 being studied in order to help address the remaining 2
 percent.
+
 Tags- Coal Mining, Treatment, Discharge,
-Link- np_clip=https://newdata-padep-1.opendata.arcgis.com/
-maps/f69db0e0c3d3488cb27eb57a6c439396/about
-Mining Leases Location- Multiple
+
+Link- np_clip=https://newdata-padep-1.opendata.arcgis.com/maps/f69db0e0c3d3488cb27eb57a6c439396/about
+
+Mining Leases
+
+Location- Multiple
+
 Description-
+
 This dataset contains Mining Leases issued under the
 Minerals Development Act (Northern Ireland) 1969 by the
 Department for the Economy. These data geometry are
@@ -411,14 +408,17 @@ These data are provided in the following formats:
 Geodatabase, GeoJSON, Geopackage, KMZ.
 GeoJSON and KML data are in Lat Long, WGS84.
 GeoDatabase, GeoPackage are in Irish National Grid.
+
 Tags- Mining, lease,
-Link- https://www.data.gov.uk/dataset/fbd0c401-a655-478ab730-
-3ad90cc426e4/mining-leases
-Gross output of total U.S.
-mining industry
-2000-2021
+
+Link- https://www.data.gov.uk/dataset/fbd0c401-a655-478ab730-3ad90cc426e4/mining-leases
+
+Gross output of total U.S. mining industry 2000-2021
+
 Location- Multiple
+
 Description-
+
 In 2021, the gross output of the United States mining
 industry amounted to 628.5 billion U.S. dollars. That was an
 increase of more than 212 billion U.S. dollars compared to
@@ -443,12 +443,17 @@ world's largest mining companies based on revenue as of
 2022. Freeport McMoRan was the second leading U.S.
 mining company based on revenue in 2022 with a revenue of
 over 24 billion U.S. dollars.
+
 Tags- Mining Economy, Mineral, Industry
-Link- https://www.statista.com/statistics/193416/grossoutput-
-of-total-us-mining-industry-since-1998/
+
+Link- https://www.statista.com/statistics/193416/grossoutput-of-total-us-mining-industry-since-1998/
+
 Gold and Gold mining -
+
 Dataset - Atena
+
 Location- Multiple
+
 Description-
 Gold is a rare, noble metal. It does not oxidize and occurs
 mainly in the elemental form; gold salts are not stable in
@@ -497,15 +502,17 @@ to gold. While there are some studies indicating an
 association between therapeutic or adverse effects of gold
 and concentrations of gold in biological media, the majority
 of studies have not observed any such association.
+
 Tags- Gold, Mining, Mineral
-Link- https://atena.urv.cat/dataset/5c2973b7-
-e209-46be-9424-0d52df6e876d
-Russia Mining and
-Quarrying Volume: Ores
-& Others: Gold Ores &
-Concentrates
+
+Link- https://atena.urv.cat/dataset/5c2973b7-e209-46be-9424-0d52df6e876d
+
+Russia Mining and Quarrying Volume: Ores & Others: Gold Ores & Concentrates
+
 Location- Russia
+
 Description-
+
 Russia Mining and Quarrying Volume: Ores & Others: Gold
 Ores & Concentrates data was reported at 106.400 Prev
 Year=100 in 2017. This records an increase from the
@@ -519,20 +526,28 @@ Russia Mining and Quarrying Volume: Ores & Others: Gold
 Ores & Concentrates data remains active status in CEIC and
 is reported by Federal State Statistics Service. The data is
 categorized under Russia Premium Database’s Mining and
-Quarrying Sector – Table RU.BAF001: Mining and Quarrying
+Quarrying Sector –
+
+Table RU.BAF001: Mining and Quarrying
 Volume: Ores and Others: Summary.
+
 Tags- Mining, Quarrying, Mineral Ore,
+
 Link- https://www.ceicdata.com/en/russia/mining-andquarrying-
-volume-ores-and-others-summary/mining-andquarrying-
-volume-ores--others-gold-ores--concentrates
+volume-ores-and-others-summary/mining-andquarrying- volume-ores--others-gold-ores--concentrates
+
 Mining in Morocco Field Value Source minerals.usgs.gov
-Last Updated 25. Oktober 2016, 11:54 (UTC+02:00)
-Erstellt 25. Oktober 2016, 11:39 (UTC+02:00)
+
+Last Updated 25. Oktober 2016, 11:54 (UTC+02:00) Erstellt 25. Oktober 2016, 11:39 (UTC+02:00)
+
 Link- https://open.africa/de/dataset/mining-in-morocco
-Geological Image
-Similarity
+
+Geological Image Similarity
+
 Location- Russia
+
 Description-
+
 A geology research company wants to create a tool for
 identifying interesting patterns in their imagery data. This tool
 will possess a search capability whereby an analyst provides
@@ -552,13 +567,17 @@ Rover Team for the purpose of research of similar rocks
 identification in a mars-like surface. The dataset contains
 three different types of rocks such as - Igneous,
 Metamorphic, sedimentary, etc.
+
 Tags- Rock Image, Geology, Exploration
+
 Link- https://data.mendeley.com/datasets/7g7zpy9vcb
-CLM - Geology and
-Petroleum potential
-image
+
+CLM - Geology and Petroleum potential image
+
 Location- Multiple
+
 Description-
+
 This dataset was supplied to the Bioregional Assessment
 Programme by a third party and is presented here as
 originally supplied. The metadata was not provided by the
@@ -580,17 +599,23 @@ O'Brien, PE (compilers and editors) (1994a) Geology and
 petroleum potential of the Clarence-Moreton Basin, New
 South Wales and Queensland. Australian Geological Survey
 Organisation, Bulletin 241. Australian Geological Survey
-Organisation, Canberra.\n\n## **Dataset Citation**
+Organisation, Canberra.
+
+\n\n## **Dataset Citation**
 \n\nAustralian Geological Survey Organisation (2015) CLM -
 Geology and Petroleum potential image. Bioregional
 Assessment Source Dataset. Viewed 28 September 2017.
+
 Tags- Geology, Petroleum, Well-log
-Link- http://data.bioregionalassessments.gov.au/dataset/
-3b5b0b66-d0fb-4b79-a0c1-5cd3719b44fc.
-The GeoScour Open
-dataset
+
+Link- http://data.bioregionalassessments.gov.au/dataset/3b5b0b66-d0fb-4b79-a0c1-5cd3719b44fc.
+
+The GeoScour Open dataset
+
 Location- Multiple
+
 Description-
+
 The BGS GeoScour Open datasets provide a generalised
 overview of the natural characteristics and properties of
 catchment and riverine environments for the assessment of
@@ -602,12 +627,17 @@ catchment to subcatchment data. The datasets are polygon
 (area) layers, which are described using straightforward
 classifications and enabling an indicative catchment
 susceptibility assessment.
+
 Tags- Geology, Geography, River, Natural
+
 Link- https://www.bgs.ac.uk/download/bgs-geoscour-open-2/
-Minerals Identification
-Dataset
+
+Minerals Identification Dataset
+
 Location- Multiple
+
 Description-
+
 Identification of minerals in the field is a task that is
 wrought with many challenges. Traditional approaches
 require expertise and are prone to errors. Deep learning
@@ -616,13 +646,17 @@ provide simple and effective ways to identify minerals.
 However, existing techniques mainly make use of features
 of the minerals under a microscope and tend to favour a
 manual feature extraction pipeline.
+
 Tags- Minerals, Rock, Geology, Sedimentology
-Link- https://www.kaggle.com/datasets/asiedubrempong/
-minerals-identification-dataset
-Mineral export records
-2015-2018
+
+Link- https://www.kaggle.com/datasets/asiedubrempong/minerals-identification-dataset
+
+Mineral export records 2015-2018
+
 Location- Multiple
+
 Description-
+
 To provide an enabling environment for the socioeconomic
 development of the Solomon Islands through
 the application of necessary safeguards with regard
@@ -636,13 +670,15 @@ Climate Change Division (CCD), Corporate Services
 Division, Environment & Conservation Division (ECD),
 Meteorological Services Division, National Disaster
 Management Office (NDMO)
-Link- https://solomonislands-data.sprep.org/dataset/
-mineral-export-records-2015-2018
-Dataset for mineral
-resource inventory of
-North Dakota
-Location- North Dakota, USA
-Description-
+
+Link- https://solomonislands-data.sprep.org/dataset/mineral-export-records-2015-2018
+
+Dataset for mineral resource inventory of North Dakota
+
+**Location-** North Dakota, USA
+
+**Description-**
+
 This data release contains the geospatial resources that
 were used by the USGS to compile the mineral resource
 inventory for the state of North Dakota, developed by the
@@ -676,11 +712,15 @@ classes in the “4_Feature_ classes” folder do not contain
 individual metadata files - all descriptive information for
 them can be found in the "ND_metadata.xml" metadata
 file.
-Tags- Mineral Resource,
-Link- https://www.sciencebase.gov/catalog/item/
-6198231ed34eb622f692ef5e
-Location- Russia
-Description-
+
+**Tags-** Mineral Resource,
+
+**Link-** https://www.sciencebase.gov/catalog/item/6198231ed34eb622f692ef5e
+
+**Location-** Russia
+
+**Description-**
+
 This report presents data, including latitude and longitude,
 for aggregate sites in New Mexico that were believed to be
 active in the period 1997-1999. The data are presented in
@@ -697,50 +737,63 @@ the Bureau of Land Management Information; and direct
 communications with some of the aggregate operators.
 Additional information on most of the sites is available in
 Hatton and others (1998).
-Tags-
-Link- https://pubs.usgs.gov/of/2000/0011/
-Geologic map of Alaska Location- Alaska
-Description-
+
+**Link-** https://pubs.usgs.gov/of/2000/0011/
+
+**Geologic map of Alaska Location- Alaska**
+
+**Description-**
 Digital compilation and reinterpretation of published and
 unpublished geologic mapping of Alaska. This information
 was published by USGS as Scientific Investigations Map
 3340.
-Tags- Geology, Maps,
-Link- https://mrdata.usgs.gov/sim3340/
-Mined Land Permits:
-Beginning 1974
-Location- Multiple
-Description-
+
+**Tags-** Geology, Maps,
+
+**Link-** https://mrdata.usgs.gov/sim3340/
+
+**Mined Land Permits:Beginning 1974**
+
+**Location-** Multiple
+
+**Description-**
 This coverage contains data from the Division of Mineral
 Resources Mined Lands permit files.
 This coverage contains data from the Division of Mineral
 Resources Mined Lands permit files.
-Source: https://data.ny.gov/d/va8e-9s3h
+
+**Source:** https://data.ny.gov/d/va8e-9s3h
+
 Last updated at https://data.ny.gov/data.json : 2020-05-14
 Before using the data, download the Terms of Service,
 https://data.ny.gov/download/77gx-ii52/application/pdf, to
 read the data license requirements.
-Tags- minerals, gravel, stone, aggregate, mines, mined
-land, energy environment
-Link- https://data.world/data-ny-gov/va8e-9s3h
-Mines in Africa Location- Multiple
-Description-
+
+**Tags-** minerals, gravel, stone, aggregate, mines, mined land, energy environment
+
+**Link-** https://data.world/data-ny-gov/va8e-9s3h
+
+****Mines in Africa- ****
+
+**Location-** Multiple
+
+**Description-**
 Number of mineral mines (total and by commodity) for 5,835
-African ADM2 units.
-This is a cross-sectional dataset with information about
-the number of mineral mines (total and by commodity) for
-5,835 African ADM2 units.
-The table contains the total number of mines and total
-number of mines by 24 commodities for each ADM2
-district in Africa.The raw data was sourced from the U.S.
-Geological Survey (USGS) 2005. Mineral Resources Data
+African ADM2 units. This is a cross-sectional dataset with information about
+the number of mineral mines (total and by commodity) for 5,835 African ADM2 units.
+The table contains the total number of mines and total number of mines by 24 commodities for each ADM2
+district in Africa.The raw data was sourced from the U.S. Geological Survey (USGS) 2005. Mineral Resources Data
 System.
-Tags- mines, minerals, resources, africa
-Link: http://datainspace.org/index.php/mines-in-africa/
-Mineral Resources Data
-System
-Location- Multiple
-Description-
+
+**Tags-** mines, minerals, resources, Africa
+
+**Link:** http://datainspace.org/index.php/mines-in-africa/
+
+**Mineral Resources Data System**
+
+**Location-** Multiple
+
+**Description-**
 Mineral resource occurrence data covering the world, most
 thoroughly within the U.S. This database contains the
 records previously provided in the Mineral Resource Data
@@ -752,9 +805,11 @@ database developed over several decades by hundreds of
 researchers and reporters. This product is a digest in which
 the fields chosen are those most likely to contain valid
 information.
-Data Provided By:
-U.S. Geological Survey
+
+Data Provided By: U.S. Geological Survey
+
 Content date: 20120127
+
 Citation:
 http://mrdata.usgs.gov/mrds/
 http://mrdata.usgs.gov/services/mrds?
@@ -766,10 +821,12 @@ USGS ER GD
 Contact Person(s):
 Peter N. Schweitzer
 Use Const
-Link- https://databasin.org/datasets/
-4b77ce7e8eae4480afc15003f4c71c2b/
-Construction Minerals Location-
-Description-
+
+**Link-** https://databasin.org/datasets/4b77ce7e8eae4480afc15003f4c71c2b/
+
+**Construction Minerals Location-**
+
+**Description-**
 This dataset represents construction minerals operations in
 the United States. The data represent commodities covered
 by the Minerals Information Team (MIT) of the U.S.
@@ -780,11 +837,15 @@ and crushed stone. These data are intended for geographic
 display and analysis at the national level, and for large
 regional areas. The data should be displayed and analyzed
 at scales appropriate for 1:2,000,000-scale data.
-Tags- mining, opportunity, minerals, homeland security,
+
+**Tags-** mining, opportunity, minerals, homeland security,
 opportunity homeland security
-Link-https://data.world/dhs/construction-minerals
-Ferrous Metal Mines Location-
-Description-
+
+**Link-**https://data.world/dhs/construction-minerals
+
+**Ferrous Metal Mines Location-**
+
+**Description-**
 This dataset represents ferrous metal mines in the United
 States. The data represent commodities covered by the
 Minerals Information Team (MIT) of the U.S. Geological
@@ -794,19 +855,22 @@ for geographic display and analysis at the national level,
 and for large regional areas. The data should be
 displayed and analyzed at scales appropriate for
 1:2,000,000-scale data.
-TAGS- mining, opportunity, homeland security,
-minerals, opportunity homeland security
-Link- https://data.world/dhs/ferrous-metal-mines
-GSI Bedrock Symbols
-100K
-Location- Russia
-Description-
+
+**TAGS-** mining, opportunity, homeland security, minerals, opportunity homeland security
+**Link-** https://data.world/dhs/ferrous-metal-mines
+
+**GSI Bedrock Symbols 100K**
+
+**Location- ** Russia
+
+**Description-**
 This data represents a seamless bedrock geological dataset
 encompassing Republic of Ireland and parts of Northern
 Ireland. The seamless geological dataset was created from
 the GSI Bedrock 1:100,000 scale digital geological map
-series. The dataset comprises 6 key shape files. 1)
-Bed100k.shp - A polygon shapefile that contains bedrock
+series. The dataset comprises 6 key shape files. 
+
+1) Bed100k.shp - A polygon shapefile that contains bedrock
 geological information on Stratigraphy, Igneous, Lithology
 and Diagentic codes, their unitnames and brief descriptions.
 Fields: AREA: Area of the polygon in square metres. Field
@@ -821,10 +885,14 @@ code. Field type: String. DESCRIPT: Brief description of the
 dominant rock types. Field type: String. C,M,Y,K: cyan,
 magenta, yellow and black percentage. Field types: Double.
 UNITNAME: Name of the geological formation or member.
-Field Type: String. 2) Index100k.shp - An overlay polygon
+Field Type: String. 
+
+2) Index100k.shp - An overlay polygon
 index of 1:100,000 scale printed map sheets. Fields:
 SHEETNO: 1:100,000 printed sheet number. Field type:
-Double. 3) Struc100k.shp (Structural Linework) - A linework
+Double.
+
+3) Struc100k.shp (Structural Linework) - A linework
 shapefile that contains structural geological linework codes
 and descriptions Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
@@ -836,8 +904,9 @@ FAULTNAME: Name field for regionally important faults.
 Field type: String. ADDITION: Additional information field for
 structure. Field type: String. DESCRIPT: Description of
 structure type. Field type: String. SLIDE: Name field for
-regionally important slides. Field type: String. 4)
-Strat100k.shp (Stratigraphic Linework) - A linework shapefile
+regionally important slides. Field type: String.
+
+4) Strat100k.shp (Stratigraphic Linework) - A linework shapefile
 that contains stratigraphic geological line codes and
 descriptions. Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
@@ -852,8 +921,9 @@ Stratigraphic code for narrow formations or members which
 are represented by a line rather than a polygon in Bed100k.
 Field type: String. LITHCODE: Lithological code for narrow
 formations or members which are represented by a line
-rather than a polygon in Bed100k. Field type: String. 5)
-NZL_GNS_GM6_Victoria_
+rather than a polygon in Bed100k. Field type: String.
+
+5) NZL_GNS_GM6_Victoria_
 Range
 Location- New Zealand
 Description-
@@ -878,19 +948,23 @@ Description-
 Core log from Glass Buttes Well 52-33, drilled by Geodrill
 Rig 6 in 2014 to a depth of 3000 feet. Logged at 500 ft
 intervals.
+
 Source: https://catalog.data.gov/dataset/glass-butteswell-
 52-33-core-log-5cfce
+
 Last updated at https://catalog.data.gov/organization/doe-
-Tags-fractures, geothermal, lithology, minerals,
-minerology, oregon, temperature
-LICENSE CC-BY
-DICTIONARY
+
+Tags-fractures, geothermal, lithology, minerals, minerology, oregon, temperature
+
+LICENSE CC-BY DICTIONARY
+
 1 file, 0 columns, 0 tables·View
-Map based index
-(GeoIndex) mineral
-occurrences
-Location- UK
-Description-
+
+**Map based index (GeoIndex) mineral occurrences**
+
+**Location-** UK
+
+**Description-**
 This layer of the map based index (GeoIndex) shows the
 locations of known mines, mineral showings and localities,
 including sites where minerals of economic interest have
@@ -906,13 +980,18 @@ such as field sheets, rock and stream sediment collection
 cards. Data compilation started ca. 1994 and the database
 currently holds about 13 000 records, but details of many
 more old workings and occurrences remain to be added.
-Tags: Mineral, Geology, Deposits,
-Source: https://ckan.publishing.service.gov.uk/dataset/mapbased-
-index-geoindex-mineral-occurrences1
+
+**Tags:** Mineral, Geology, Deposits,
+
+**Source:** https://ckan.publishing.service.gov.uk/dataset/mapbased- index-geoindex-mineral-occurrences1
+
 Last updated at https://ckan.publishing.service.gov.uk/
+
 dataset : 2022-06-15
-Location-
-Description-
+
+**Location-
+
+Description-**
 This data represents a seamless bedrock geological dataset
 encompassing Republic of Ireland and parts of Northern
 Ireland. The seamless geological dataset was created from
@@ -920,13 +999,14 @@ the GSI Bedrock 1:100,000 scale digital geological map
 series. The dataset comprises 6 key shape files.
 Link- https://data.world/geological-surv/
 700b93ce-23c3-4f0d-a7ac-ad0e551a5f79
-GSI Bedrock
-Stratigraphic Linework
-100k
-Ferrous Metal Processing
-Plant
-Location-
-Description-
+GSI Bedrock Stratigraphic Linework 100k
+
+**Ferrous Metal Processing Plant**
+
+**Location-**
+
+**Description-**
+
 This dataset represents ferrous metal processing plants in
 the United States. The data represent commodities covered
 by the Minerals Information Team (MIT) of the U.S.
@@ -936,13 +1016,16 @@ intended for geographic display and analysis at the national
 level, and for large regional areas. The data should be
 displayed and analyzed at scales appropriate for
 1:2,000,000-scale data.
-Tags- Ferrous, Metal, Mineral, Plant, Production
-Link- https://data.world/dhs/ferrous-metal-processing-plant
-Total Sediment Thickness
-of the World's Oceans
-and Marginal Seas
-Location-
-Description-
+
+**Tags-** Ferrous, Metal, Mineral, Plant, Production
+
+**Link-** https://data.world/dhs/ferrous-metal-processing-plant
+
+**Total Sediment Thickness of the World's Oceans and Marginal Seas**
+
+**Location-**
+
+**Description-**
 CEI's global ocean sediment thickness grid of Divins
 (2003) updated by Whittaker et al. (2013) has been
 updated again for the NE Atlantic, Arctic, Southern Ocean,
@@ -963,14 +1046,16 @@ GlobSed covers a larger area than NCEI’s previous global
 grids (Divins, 2003; Whittaker et al. 2013), and the new
 updates results in a 29.7% increase in estimated total
 oceanic sediment volume.
-Tags-
-Link- https://www.ngdc.noaa.gov/mgg/sedthick/
-Geospatial database of
-the 2018 lower East Rift
-Zone eruption of Kīlauea
-Volcano, Hawaiʻi
-Location-
-Description-
+
+**Tags-**
+
+**Link-** https://www.ngdc.noaa.gov/mgg/sedthick/
+
+**Geospatial database of the 2018 lower East Rift Zone eruption of Kīlauea Volcano, Hawaiʻi**
+
+**Location-**
+
+**Description-**
 The 2018 lower East Rift Zone eruption of Kīlauea Volcano
 began in the late afternoon of 3 May, with fissure 1 opening
 and erupting lava onto Mohala Street in the Leilani Estates
@@ -999,26 +1084,31 @@ District with lava. In this report, the authors have sought to
 chronicle this sequence of events using geospatial data in
 the form of an Esri file geodatabase, Esri shapefiles, and
 Google Earth KMZs.
-Tags- Map ServiceOGC WFS LayerOGC WMS LayerOGC
-WMS ServiceShapefile
-Link- https://www.sciencebase.gov/catalog/item/
-5eba3f6082ce25b5135d5b85
-Location- Multiple
-Description-
+
+**Tags-** Map ServiceOGC WFS LayerOGC WMS LayerOGC
+
+**WMS ServiceShapefile**
+
+**Link- **- https://www.sciencebase.gov/catalog/item/5eba3f6082ce25b5135d5b85
+
+**Location-** Multiple
+
+**Description-**
 Multi class classification using different types of images of
 rocks. This dataset is prepared by a team of Brac
 University Mars Rover Team for the purpose of research
 of similar rocks identification in a mars-like surface.
-Tags-
+
+**Tags-**
 It contains images of rocks of different types.
 You will find images of different types of rocks such as -
 Igneous, Metamorphic, sedimentary, etc
-Link- https://www.kaggle.com/datasets/salmaneunus/
-rock-classification?select=Dataset
-Rock Classification
-Dataset
-Location-
-Description-
+
+**Link-** https://www.kaggle.com/datasets/salmaneunus/rock-classification?select=Dataset
+
+**Rock Classification Dataset**
+
+**Description-**
 Marine Geologic data compilations and reports in the
 NCEI archive are from academic and government sources
 around the world. Over ten terabytes of analyses,
@@ -1041,12 +1131,13 @@ grabs, dredges, and drill samples available from sample
 repositories at partner institutions, with links to browse
 and download related information from NCEI and other
 sources.
-Tags- Palaeontology, Rock, Sediment, Geology,
-Mineralogy, petrology/mineralogy, geochemistry,
+
+**Tags-** Palaeontology, Rock, Sediment, Geology, Mineralogy, petrology/mineralogy, geochemistry,
 paleontology, paleomagnetism
-LinkLocation-
-Multiple
-Description-
+
+**Location-** Multiple
+
+**Description-**
 Geo Fossils-I is a synthetic image dataset used as a solution
 for resolving the limited availability of geological datasets
 intended for image classification and object detection on 2D
@@ -1073,9 +1164,13 @@ This dataset is the first set within a series to be compiled
 aiming to enrich the available resources with respect to 2D
 outcrop images allowing geoscientists to progress in the field
 of automated interpretation of depositional environments.
+
 Link- https://www.kaggle.com/datasets/naifislam/geo-fossil-1
+
 Geo Fossil 1
+
 Location- Multiple
+
 Description-
 The NSIDC DAAC Advanced Microwave Scanning
 Radiometer Unified (AMSR Unified) collection includes
@@ -1134,8 +1229,11 @@ DUNE FIELDS
 USING VHF
 SOUNDING RADAR:
 RAW GROUNDPENETRATING
+
 RADAR (GPR) DATA
+
 Location-
+
 Description-
 The recent interest in using deep learning for seismic
 interpretation tasks, such as facies classification, has been
@@ -1166,46 +1264,53 @@ available, this work can help advance research in this area
 and create an objective benchmark for comparing the results
 of different machine learning approaches for facies
 classification for researchers to use in the future.
-Tags: Computer Vision Machine Learning
-Geoscience and Remote Sensing, seismic, facies,
+
+**Tags: **Computer Vision Machine Learning Geoscience and Remote Sensing, seismic, facies,
 classification, F3 Block
-Link- https://ieee-dataport.org/open-access/facies-markmachine-
-learning-benchmark-facies-classification
-National Geochemical
-Database: Rock
-Location-
-Description-
+
+**Link-** https://ieee-dataport.org/open-access/facies-markmachine-learning-benchmark-facies-classification
+
+**National Geochemical Database:** Rock
+
+**Location-**
+**Description-**
 National Geochemical Database: Rock
 Geochemical analysis of rock samples collected and
 analyzed by the USGS. This dataset includes and
 supersedes rock data formerly released as "Geochemistry
 of igneous rocks in the US extracted from the PLUTO
 database". The database contains 414,304 records
+
 Link- https://mrdata.usgs.gov/ngdb/rock/
-Utah FORGE: Rock
-Properties
+
+Utah FORGE: Rock Properties
+
 Location- Utah, USA
+
 Description-
 This is an Excel spreadsheet that contains rock properties
 from several wells in the Utah FORGE study area. This
 includes a map of the wells. Data is described in the Final
 Topical Report included in the resources below.
-Linkhttps://
-catalog.data.gov/dataset/utah-forge-rock-properties
+
+**Link**- https:catalog.data.gov/dataset/utah-forge-rock-properties
 Last updated at https://catalog.data.gov/organization/doegov
 : 2021-07-17
-Tags- caliper, core, density, egs, energy, forge,
-gamma, geomechanics, geothermal,
-kspar, mafics, milford, porosity, properties,
-quartz, resistivity, resource, rock,
+
+**Tags-** caliper, core, density, egs, energy, forge, gamma, geomechanics, geothermal,
+kspar, mafics, milford, porosity, properties, quartz, resistivity, resource, rock,
+
 LICENSE CC-BY DICTIONARY
+
 2 files, 380 columns, 0 tables·View
-Link- https://mrdata.usgs.gov/ngdb/rock/
-GSI Bedrock
-Stratigraphic
-Linework 100k
-Location- Multiple
-Description-
+
+**Link- **https://mrdata.usgs.gov/ngdb/rock/
+
+**GSI Bedrock Stratigraphic Linework 100k**
+
+**Location-** Multiple
+
+**Description-**
 This data represents a seamless bedrock geological dataset
 encompassing Republic of Ireland and parts of Northern
 Ireland. The seamless geological dataset was created from
@@ -1213,9 +1318,9 @@ the GSI Bedrock 1:100,000 scale digital geological map
 series. The dataset comprises 6 key shape files. 1)
 Bed100k.shp - A polygon shapefile that contains bedrock
 geological information on Stratigraphy, Igneous, Lithology
-and Diagentic codes, their unitnames and brief descriptions.
-Fields: AREA: Area of the polygon in square metres. Field
-type: Double. PERIMETER: Perimeter of polygons in metres:
+and Diagenetic codes, their unit names and brief descriptions.
+Fields: AREA: Area of the polygon in square meters. Field
+type: Double. PERIMETER: Perimeter of polygons in meters:
 Field type: Double. NEWCODE: unique identifier for every
 formation or member. Field type: String. SHEETNO: 100k
 sheets from which they originated before creating the
@@ -1257,11 +1362,14 @@ Stratigraphic code for narrow formations or members which
 are represented by a line rather than a polygon in Bed100k.
 Field type: String. LITHCODE: Lithological code for narrow
 formations or members which are represented by a line
-rather than a polygon in Bed100k. Field type: String. 5)
-EasyGSH-DB
-Sedimentology
-Dataset
-Location- Multiple
+rather than a polygon in Bed100k. Field type: String. 
+
+5) EasyGSH-DB
+
+**Sedimentology Dataset**
+
+**Location-** Multiple
+
 Description-
 All data sets for sedimentology have on-the-fly generated
 preview images, metadata and data sets, click on desired
@@ -1274,8 +1382,10 @@ WFS - https://mdi-dienste.baw.de/geoserver/
 EasyGSH_Sediment/wfs
 WCS - https://mdi-dienste.baw.de/geoserver/
 EasyGSH_Sediment/wcs
-Seismic dataset Location- Multiple
-Description-
+
+**Seismic dataset Location-** Multiple
+
+**Description-**
 The original Seismic dataset from UCI machine learning
 repository is a binary classification dataset having 19
 attributes. It is an unbalanced dataset where the positive
@@ -1283,35 +1393,36 @@ attributes. It is an unbalanced dataset where the positive
 class and the negative class (no hazard) is considered as
 inlier class. Out of 19 attributes 11 are utilized for outlier
 detection.
-Tags-Local Density meets Spectral Outlier Detection.
-Link- http://odds.cs.stonybrook.edu/seismic-dataset/
-Seismic Time-Series
-Dataset
-Location- Multiple
-Description-
+
+**Tags**-Local Density meets Spectral Outlier Detection.
+
+**Link-** http://odds.cs.stonybrook.edu/seismic-dataset/
+
+**Seismic Time-Series Dataset**
+
+**Location-** Multiple
+
+**Description-**
 The IRIS DMC archives time series (waveform) data from
-stations around the world.
-Passive Source data is collected continuously, and usually
-monitors natural seismic activity. Often, known events are
-used to identify segments of data to fetch.
-Active Source data usually involves the creation of seismic
-events using explosives or mechanical devices like air guns.
-Discrete data sets may be collected and organized around
-these events. This is the primary IRIS archive, containing
-primarily passive source data in SEED format. Data
-channels are organized by FDSN identifier elements, and
-primarily accessed through a data service API.
-Assembled data primarily comes from temporary
-deployments and in formats other than SEED. Data comes
-from various sources including IRIS PASSCAL (mostly active
+stations around the world. Passive Source data is collected continuously, and usually
+monitors natural seismic activity. Often, known events are used to identify segments of data to fetch.
+Active Source data usually involves the creation of seismic events using explosives or mechanical devices like air guns.
+Discrete data sets may be collected and organized around these events. This is the primary IRIS archive, containing
+primarily passive source data in SEED format. Data channels are organized by FDSN identifier elements, and
+primarily accessed through a data service API. Assembled data primarily comes from temporary
+deployments and in formats other than SEED. Data comes from various sources including IRIS PASSCAL (mostly active
 source), the USGS, and others.
-Tags-
-Link- https://ds.iris.edu/ds/nodes/dmc/data/types/timeseries-
-data/
-Seismic Event Data Location- Multiple
-Description-
-RIS aggregates event data from a number of
-independently-operated catalogs.
+
+**Tags-**
+
+**Link-** https://ds.iris.edu/ds/nodes/dmc/data/types/timeseries-data/
+
+**Seismic Event Data**
+
+**Location- ** Multiple
+
+**Description-**
+RIS aggregates event data from a number of independently-operated catalogs.
 ISF format with DMC extensions
 WEED Summary File Format
 Event Search Tools
@@ -1320,10 +1431,14 @@ Wilber
 IEB – IRIS Earthquake Browser
 PyWEED
 Tags
+
 Earthquakes Event Web Service
-Link- https://ds.iris.edu/ds/nodes/dmc/data/types/events/
-Earthquake Archives Location- Multiple
-Description-
+
+**Link-** https://ds.iris.edu/ds/nodes/dmc/data/types/events/
+
+**Earthquake Archives Location-** Multiple
+
+**Description-**
 The old seismograms, if properly interpreted, provide
 invaluable information on earthquakes in the past, and every
 effort should be made to save them, regardless of their
@@ -1456,7 +1571,7 @@ seismograms (each 1 minute long) associated
 with ~ 450,000 earthquakes (Fig. 3) that occurred between
 January 1984 and August 2018. The earthquakes in the data
 set were recorded by 2,613 receivers (seismometers) (Fig.
-4)
+7)
 worldwide located at local distances (within 350 km of the
 earthquakes). The non-earthquake class currently contains
 only one category of seismic noise including ~100,000
