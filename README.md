@@ -15,7 +15,9 @@ E. Link- It mentions the links to the websites hosting the datasets. We intend t
 
 
 List of Datasets in OGD
+
 Dataset Description
+
 Location- Greece
 Type- Multispectral
 Description- Machine Learning (ML) algorithms had
