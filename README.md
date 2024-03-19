@@ -18,25 +18,19 @@ List of Datasets in OGD
 Dataset Description
 
 Location- Greece
+
 Type- Multispectral
-Description- Machine Learning (ML) algorithms had
-successfully contributed in the creation of automated
-methods of recognizing patterns in high-dimensional data.
-Remote sensing data covers wide geographical areas and
-could be used to solve the problem of the demand of various
-in-situ data. Lithological mapping using remotely sensed
-data is one of the most challenging applications of ML
-algorithms. In the framework of the “AI for Geoapplications”
-project , ML and especially Deep Learning (DL)
-methodologies are investigated for the identification and
-characterization of the lithology based on remote sensing
-data in various pilot areas in Greece. In order to train and
-test the various ML algorithms, a dataset consisting of 27
-ROIs selected mainly from low -vegetated areas, that cover
+
+Description- Machine Learning (ML) algorithms had successfully contributed in the creation of automated
+methods of recognizing patterns in high-dimensional data. Remote sensing data covers wide geographical areas and
+could be used to solve the problem of the demand of various in-situ data. Lithological mapping using remotely sensed
+data is one of the most challenging applications of ML algorithms. In the framework of the “AI for Geoapplications”
+project , ML and especially Deep Learning (DL) methodologies are investigated for the identification and
+characterization of the lithology based on remote sensing data in various pilot areas in Greece. In order to train and
+test the various ML algorithms, a dataset consisting of 27 ROIs selected mainly from low -vegetated areas, that cover
 2% of the total area of Greece was created.
 
-Tags- Classification, Semantic segmentation, Multisensor
-data fusion
+Tags- Classification, Semantic segmentation, Multisensor data fusion
 
 Link- https://doi.org/10.5281/zenodo.7806929
 
