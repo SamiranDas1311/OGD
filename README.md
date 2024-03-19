@@ -1,19 +1,22 @@
 # OGD
-An Open Geological Database
-A wide collection of Geological, Mining, and Seismic datasets for open research.
+
+**An Open Geological Database- A wide collection of Geological, Mining, and Seismic datasets for open research.**
+
 Explore datasets, share feedback
-Submit your own datasets with the following fields-\
-A. Location- This field indicates whether the dataset is collected from a particular location or country. However, several datasets are collected from multiple locations. Specifying the location enables the users to obtain data as per their requirements.
 
-B. Type- This field can mention the sensor that captured the dataset, or specify the type/ application of the dataset.
+Submit your own datasets with the following fields-
 
-C. Description- This field may contain a short summary of the specification, application, and utility of the dataset so that both the experts, and the general readers can explore, and use these datasets. 
+**A. Location**- This field indicates whether the dataset is collected from a particular location or country. However, several datasets are collected from multiple locations. Specifying the location enables the users to obtain data as per their requirements.
 
-D. Tags- Mention specific keywords that give an overview of the data, and facilitate easy searching.
+**B. Type- **This field can mention the sensor that captured the dataset, or specify the type/ application of the dataset.
 
-E. Link- It mentions the links to the websites hosting the datasets. We intend to maintain and update the links from time to time.
+**C. Description- ** This field may contain a short summary of the specification, application, and utility of the dataset so that both the experts, and the general readers can explore, and use these datasets. 
 
-List of Datasets in OGD
+**D. Tags-** Mention specific keywords that give an overview of the data, and facilitate easy searching.
+
+**E. Link-** It mentions the links to the websites hosting the datasets. We intend to maintain and update the links from time to time.
+
+**List of Datasets in OGD**
 
 Dataset Description
 
@@ -171,14 +174,13 @@ geom<point> in geographical coordinates WGS84. The
 overall accuracy calculated from the control points was
 88.4%. For other accuracy metrics see the source link.
 
-Tags: Mines, Mineral, Shapefile, Location, Remote Sensing
-Image
+**Tags:** Mines, Mineral, Shapefile, Location, Remote Sensing Image
 
-Link: https://doi.pangaea.de/10.1594/PANGAEA.910894
+**Link:** https://doi.pangaea.de/10.1594/PANGAEA.910894
 
-Quality Prediction in a Mining Process
+**Quality Prediction in a Mining Process**
 
-Description-
+**Description-**
 
 It is not always easy to find databases from real-world
 manufacturing plants, especially mining plants. So, I would
@@ -219,12 +221,15 @@ listed mining companies. Historical and forecast commodity
 supply with Mine Economics - our granular mine-level
 production and cost models Proprietary research including
 our global exploration budgets data set.
-Tags- Metals, Mining
-Link- https://www.marketplace.spglobal.com/en/datasets/snlmetals-
-mining-(19)
-Global Mining Locations
-Data
-Location- Worldwide
+
+**Tags-** Metals, Mining
+
+**Link- **https://www.marketplace.spglobal.com/en/datasets/snlmetals-mining-(19)
+
+**Global Mining Locations Data**
+
+**Location- **Worldwide
+
 Description-
 This data set provides spatially explicit estimates of the area
 directly used for surface mining on a global scale. It contains
@@ -320,17 +325,17 @@ comprehensive sense this includes the so-called "mine
 output" as well as the output from processing at or near the
 mines (for instance, the up-grading of ores to concentrates).
 
-Tags- Minerals, Mining, Economy, Natural Resource
+**Tags- ** Minerals, Mining, Economy, Natural Resource
 
 Link- https://www.world-mining-data.info/?
 
-World_Mining_Data___Data_Section
+**World_Mining_Data___Data_Section**
 
-Mines and Mineral Resources
+**Mines and Mineral Resources**
 
-Location- Multiple
+**Location- * *Multiple
 
-Description-
+**Description-**
 
 This dataset represents mineral resource mines, excluding
 sand and gravel quarries. Only mines believed to be
@@ -446,15 +451,15 @@ over 24 billion U.S. dollars.
 
 Tags- Mining Economy, Mineral, Industry
 
-Link- https://www.statista.com/statistics/193416/grossoutput-of-total-us-mining-industry-since-1998/
+**Link- **https://www.statista.com/statistics/193416/grossoutput-of-total-us-mining-industry-since-1998/
 
-Gold and Gold mining -
+**Gold and Gold mining -**
 
-Dataset - Atena
+**Dataset -** Atena
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 Gold is a rare, noble metal. It does not oxidize and occurs
 mainly in the elemental form; gold salts are not stable in
 aqueous solutions but tend to precipitate as elemental gold.
@@ -503,15 +508,15 @@ association between therapeutic or adverse effects of gold
 and concentrations of gold in biological media, the majority
 of studies have not observed any such association.
 
-Tags- Gold, Mining, Mineral
+**Tags-** Gold, Mining, Mineral
 
-Link- https://atena.urv.cat/dataset/5c2973b7-e209-46be-9424-0d52df6e876d
+**Link- **https://atena.urv.cat/dataset/5c2973b7-e209-46be-9424-0d52df6e876d
 
-Russia Mining and Quarrying Volume: Ores & Others: Gold Ores & Concentrates
+**Russia Mining and Quarrying Volume: Ores & Others: Gold Ores & Concentrates**
 
-Location- Russia
+**Location-** Russia
 
-Description-
+**Description-**
 
 Russia Mining and Quarrying Volume: Ores & Others: Gold
 Ores & Concentrates data was reported at 106.400 Prev
@@ -1165,13 +1170,13 @@ aiming to enrich the available resources with respect to 2D
 outcrop images allowing geoscientists to progress in the field
 of automated interpretation of depositional environments.
 
-Link- https://www.kaggle.com/datasets/naifislam/geo-fossil-1
+**Link- ** https://www.kaggle.com/datasets/naifislam/geo-fossil-1
 
-Geo Fossil 1
+**Geo Fossil 1**
 
-Location- Multiple
+**Location- **Multiple
 
-Description-
+**Description-**
 The NSIDC DAAC Advanced Microwave Scanning
 Radiometer Unified (AMSR Unified) collection includes
 passive microwave data products on snow, sea ice, soil
@@ -1232,9 +1237,9 @@ RAW GROUNDPENETRATING
 
 RADAR (GPR) DATA
 
-Location-
+**Location-**
 
-Description-
+**Description-**
 The recent interest in using deep learning for seismic
 interpretation tasks, such as facies classification, has been
 facing a significant obstacle, namely the absence of large
@@ -1315,8 +1320,9 @@ This data represents a seamless bedrock geological dataset
 encompassing Republic of Ireland and parts of Northern
 Ireland. The seamless geological dataset was created from
 the GSI Bedrock 1:100,000 scale digital geological map
-series. The dataset comprises 6 key shape files. 1)
-Bed100k.shp - A polygon shapefile that contains bedrock
+series. The dataset comprises 6 key shape files.
+
+1) Bed100k.shp - A polygon shapefile that contains bedrock
 geological information on Stratigraphy, Igneous, Lithology
 and Diagenetic codes, their unit names and brief descriptions.
 Fields: AREA: Area of the polygon in square meters. Field
@@ -1331,10 +1337,14 @@ code. Field type: String. DESCRIPT: Brief description of the
 dominant rock types. Field type: String. C,M,Y,K: cyan,
 magenta, yellow and black percentage. Field types: Double.
 UNITNAME: Name of the geological formation or member.
-Field Type: String. 2) Index100k.shp - An overlay polygon
+Field Type: String. 
+
+2) Index100k.shp - An overlay polygon
 index of 1:100,000 scale printed map sheets. Fields:
 SHEETNO: 1:100,000 printed sheet number. Field type:
-Double. 3) Struc100k.shp (Structural Linework) - A linework
+Double.
+
+3) Struc100k.shp (Structural Linework) - A linework
 shapefile that contains structural geological linework codes
 and descriptions Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
@@ -1346,8 +1356,9 @@ FAULTNAME: Name field for regionally important faults.
 Field type: String. ADDITION: Additional information field for
 structure. Field type: String. DESCRIPT: Description of
 structure type. Field type: String. SLIDE: Name field for
-regionally important slides. Field type: String. 4)
-Strat100k.shp (Stratigraphic Linework) - A linework shapefile
+regionally important slides. Field type: String.
+
+ 4) Strat100k.shp (Stratigraphic Linework) - A linework shapefile
 that contains stratigraphic geological line codes and
 descriptions. Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
@@ -1364,17 +1375,18 @@ Field type: String. LITHCODE: Lithological code for narrow
 formations or members which are represented by a line
 rather than a polygon in Bed100k. Field type: String. 
 
-5) EasyGSH-DB
+**5) EasyGSH-DB**
 
 **Sedimentology Dataset**
 
 **Location-** Multiple
 
-Description-
+**Description-**
 All data sets for sedimentology have on-the-fly generated
 preview images, metadata and data sets, click on desired
 format to download.
-Select year:
+
+**Select year:**
 Web services for geographic information systems:
 WMS - https://mdi-dienste.baw.de/geoserver/
 EasyGSH_Sediment/wms
@@ -1461,17 +1473,14 @@ seismograms (in originally scanned resolution) are
 downloadable from the IRIS Data Management Center.
 Volunteers and donors are welcome. Please contact William
 H.K. Lee.
-II. International Digital Earthquake Archives
-1906 San Francisco Earthquake Archive dedicated to Prof.
-A.C. Lawson and Prof. H.F. Reid
-1906 Aleutian Is. Earthquake Archive in Memory of Prof.
-Donald B. Scott.
-1906 Valparaiso (Chile) Earthquake Archive in Memory of
+
+**II. International Digital Earthquake Archives**
+
+1906 San Francisco Earthquake Archive dedicated to Prof. A.C. Lawson and Prof. H.F. Reid 1906 Aleutian Is. Earthquake Archive in Memory of Prof.
+Donald B. Scott. 1906 Valparaiso (Chile) Earthquake Archive in Memory of
 Prof. Donald B. Scott
-1909 Taipei (Taiwan) Earthquake Archive in Memory of Prof.
-Ta-You Wu
-1920 Haiyuan, Ningxia Province, Republic of China
-August 14, 1939 Cuban Earthquake Archive
+1909 Taipei (Taiwan) Earthquake Archive in Memory of Prof. Ta-You Wu
+1920 Haiyuan, Ningxia Province, Republic of China August 14, 1939 Cuban Earthquake Archive
 July 29, 1943 Puerto Rico Earthquake Archive
 July 30, 1943 Puerto Rico Earthquake Archive
 August 4, 1946 Hispaniola Earthquake Archive
@@ -1486,8 +1495,11 @@ Mr. Manuel G. "Doc" Bonilla (in preparation)
 1960 Great Chilean Earthquake Archive in Honor of Prof.
 Hiroo Kanamori (in preparation)
 1962 Qazvin (Iran) Earthquake Archive
-Archives by Stations Location- Multiple
-Description-
+Archives by Stations 
+
+**Location- **Multiple
+
+**Description-**
 These archives contain seismograms and related materials
 of the "Reference Stations of the World". These Reference
 Stations are chosen for their strategic locations and long
@@ -1511,16 +1523,16 @@ scale and high resolution (2400 dpi or better, so that it is
 equivalent to 300 dpi or better for the original-size
 seismogram before microfilming) and image editing was
 performed for quality control.
-Puerto Rico
-Archives by Stations
-— Puerto Rico
-Location- Puerto Rico
-Description-
+
+**Puerto Rico Archives by Stations— Puerto Rico**
+
+**Location-** Puerto Rico
+
+**Description-**
 A seismographic station in Puerto Rico has been in
 operation as Vieques (VQS) from 1903-1924, as San
 Juan (SJP) from 1926-1963, and San Juan (SJG) from
-1963 to the present.
-A history of seismic recording in Puerto Rico is given in
+1963 to the present. A history of seismic recording in Puerto Rico is given in
 the file seismic- recording_history_Puerto_Rico (folder).
 This folder contains three related files:
 seismic-recording_history_Puerto_Rico.pdf
@@ -1560,37 +1572,32 @@ SJP_San_Juan (folder).
 Each original seismogram of SJP was scanned at 8-bit
 gray scale with a resolution of 500 dpi and image editing
 was performed for quality control. The filenames for SJP
-Location- Multiple
-Description-
-STEAD includes two main classes of earthquake and
-nonearthquake
-signals recorded by seismic instruments. At
-this stage the earthquake class contains only one category
-of local-earthquakes with about 1,050,000 threecomponent
-seismograms (each 1 minute long) associated
-with ~ 450,000 earthquakes (Fig. 3) that occurred between
-January 1984 and August 2018. The earthquakes in the data
-set were recorded by 2,613 receivers (seismometers) (Fig.
-7)
-worldwide located at local distances (within 350 km of the
-earthquakes). The non-earthquake class currently contains
-only one category of seismic noise including ~100,000
-samples.
-Locations of instruments recording noise waveforms
-are presented in Fig. 5. Most of the seismograms have been
-recorded since 2000 (Fig. 6) in the United States and Europe
+
+**Location-** Multiple
+
+**Description-**
+STEAD includes two main classes of earthquake and nonearthquake
+signals recorded by seismic instruments. At this stage, the earthquake class contains only one category
+of local earthquakes with about 1,050,000 three-component
+seismograms (each 1 minute long) associated with ~ 450,000 earthquakes (Fig. 3) that occurred between
+January 1984 and August 2018. The earthquakes in the data set were recorded by 2,613 receivers (seismometers) (Fig.
+7) worldwide located at local distances (within 350 km of the
+earthquakes). The non-earthquake class currently contains only one category of seismic noise including ~100,000
+samples. Locations of instruments recording noise waveforms
+are presented in Fig. 5. Most of the seismograms have been recorded since 2000 (Fig. 6) in the United States and Europe
 where denser station coverage is available.
-Tags- Earthquake, Seismic, Global, Seismometer
-Link- https://github.com/smousavi05/STEAD
-STanford EArthquake
-Dataset (STEAD):A
-Global Data Set of
-Seismic Signals for AI
-Kimama Well -
-Borehole Geophysics
-Database
-Location- Multiple
-Description-
+
+**Tags-** Earthquake, Seismic, Global, Seismometer
+
+**Link-** https://github.com/smousavi05/STEAD
+
+**STanford EArthquake Dataset (STEAD):A Global Data Set of Seismic Signals for AI**
+
+**Kimama Well - Borehole Geophysics Database**
+
+**Location-** Multiple
+
+**Description-**
 The Snake River Plain (SRP), Idaho, hosts potential
 geothermal resources due to elevated groundwater
 temperatures associated with the thermal anomaly
@@ -1606,42 +1613,45 @@ continuous record of basaltic volcanism along the central
 volcanic axis and to test the extent of geothermal resources
 beneath the Snake River aquifer. Data submitted by project
 collaborator Doug Schmitt, University of Alberta
-Source: https://catalog.data.gov/dataset/kimama-wellborehole-
-geophysics-database
-Last updated at https://catalog.data.gov/organization/doegov
-: 2017-08-29
-License -
-Creative Commons Attribution
+
+**Source:** https://catalog.data.gov/dataset/kimama-wellborehole-geophysics-database
+
+Last updated at https://catalog.data.gov/organization/doegov: 2017-08-29
+
+License -Creative Commons Attribution
+
 SHARED WITH- Everyone
+
 CREATED- 5 years ago by @datagov-us
+
 SIZE 552.57 MB
-·
-Download
-TAGS- downhole, geopysics, geothermal, idaho, kimama,
-neutron, pressure, resistivity, seismic, sonic,
-srp, tmeperature
+
+**TAGS- **downhole, geopysics, geothermal, idaho, kimama,neutron, pressure, resistivity, seismic, sonic,
+srp, tmepe rature
+
 LICENSE CC-BY
-Utah FORGE Seismic
-Stations and Wells
-GPS Survey Data,
-2021
-Location- Utah, USA
-Description-
+
+**Utah FORGE Seismic Stations and WellsGPS Survey Data, 2021**
+
+**Location- **Utah, USA 
+
+**Description-**
 This is a CSV spreadsheet containing UTM and Latitude
 and Longitude coordinates and elevations for Wells
 78-32, 58-32, and 16A(78)-32 and BOR1, BOR2, BOR3,
 FOR2, FOR5, FORK, FORU, and FORW seismic stations.
 These are from a GPS survey conducted by the Utah
 Geological Survey in June, 2021.
-Link: https://catalog.data.gov/dataset/utah-forge-seismicstations-
-and-wells-gps-survey-data-2021
-Last updated at https://catalog.data.gov/organization/doegov
-: 2021-07-17
-Fallon, Nevada
-Geophysics and
-Geochemistry Dataset
-Location- Nevada, USA
-Description-
+
+**Link: **https://catalog.data.gov/dataset/utah-forge-seismicstations-and-wells-gps-survey-data-2021
+
+Last updated at https://catalog.data.gov/organization/doegov: 2021-07-17
+
+**Fallon, Nevada Geophysics and Geochemistry Dataset**
+
+**Location- **Nevada, USA
+
+**Description-**
 The data is associated to the Fallon FORGE project and
 includes mudlogs for all wells used to characterize the
 subsurface, as wells as gravity, magnetotelluric, earthquake
@@ -1649,15 +1659,17 @@ seismicity, and temperature data from the Navy GPO and
 Ormat. Also included are geologic maps from the USGS and
 Nevada Bureau of Mines and Geology for the Fallon, NV
 area.
-Tags- aeromag, egs, fallon, forge, geochemistry,
-geochemisty, geophysical, geophysics, geothermal,
+
+**Tags-** aeromag, egs, fallon, forge, geochemistry, geochemisty, geophysical, geophysics, geothermal,
 gravity, lidar, nevada, seismic, temperature
-Link- https://catalog.data.gov/dataset/frontier-observatoryfor-
-research-in-geothermal-energy-fallon-nevada-9647d
-Newberry EGS
-Datasets
-Location- Multiple
-Description-
+
+**Link- **https://catalog.data.gov/dataset/frontier-observatoryfor- research-in-geothermal-energy-fallon-nevada-9647d
+
+**Newberry EGS Datasets**
+
+**Location-** Multiple
+
+**Description-**
 Datasets and information used to characterize the
 subsurface of Newberry and support modeling efforts.
 Includes sources for well logs, earthquakes, maps & crosssections,
@@ -1679,15 +1691,17 @@ show the extent of known hydrothermal systems in the
 Roosevelt Hot Springs area. Another file shows the
 location of the proposed water pipeline to pump water
 from the supply wells to the deep drill site.
-Tags- arcgis, egs, forge, geothermal, gis, Geophysics,
-Well-log, hydrothermal, lines, milford, roosevelt, seismic,
+
+**Tags-** arcgis, egs, forge, geothermal, gis, Geophysics, Well-log, hydrothermal, lines, milford, roosevelt, seismic,
 shapefile, system, utah
-Link- https://catalog.data.gov/dataset/geophysical-andgeospatial-
-shapefiles-from-the-milford-utah-forge-project
-Marine geoscience
-data management
-Location- Multiple
-Description-The BGS manages marine data, information
+
+**Link- **https://catalog.data.gov/dataset/geophysical-andgeospatial- shapefiles-from-the-milford-utah-forge-project
+
+**Marine geoscience data management**
+
+**Location- ** Multiple
+
+**Description-** The BGS manages marine data, information
 and material as part of the National Geoscience Data
 Centre (NGDC), the Marine Environment Data and
 Information Network (MEDIN) geology data archive
@@ -1702,14 +1716,17 @@ OpenGeoscience and the Open Government Licence.
 However, some data are not yet processed for online
 delivery and in these cases there may be a charge to cover
 data preparation. You can also deposit data with us.
-Tags- Marine, Geology, Geophysics
-Link- https://www.bgs.ac.uk/geological-data/nationalgeoscience-
-data-centre/ngdc-data-management/marinegeoscience-
+
+**Tags-** Marine, Geology, Geophysics
+
+**Link- **https://www.bgs.ac.uk/geological-data/nationalgeoscience-data-centre/ngdc-data-management/marinegeoscience-
 data-management/
-GEOLOGY:
-DATASETS
-Location- Multiple
-Description- Michigan GIS Open Data Portal- Here you can
+
+**GEOLOGY:** DATASETS
+
+**Location- **Multiple
+
+**Description-** Michigan GIS Open Data Portal- Here you can
 browse, search, preview, and download a variety of Michigan
 geospatial datasets. Browse by category or enter key words in the
 search box to locate a dataset of interest. You can then read its
@@ -1753,10 +1770,16 @@ active source seismic data. In 2005, the system was expanded to
 include dedicated data management services for global bathymetry
 data. Since 2010, MGDS has been part of IEDA, an NSF-funded
 data facility for solid earth geoscience data.
-Tags- GIS, Geothermal, Seismic, Geology, Exploration
-Link- https://gis-michigan.opendata.arcgis.com/
-Indonesian Geological Resource Location- Indonesia
-Description-
+
+**Tags-** GIS, Geothermal, Seismic, Geology, Exploration
+
+**Link- **https://gis-michigan.opendata.arcgis.com
+
+**Indonesian Geological Resource **
+
+**Location- Indonesia**
+
+**Description-**
 Geologically, Indonesia is a potential region for the formation
 of various energy and mineral resources. Exploration
 activities that have been carried out since 1800’s up to the
@@ -1769,13 +1792,16 @@ thoroughly, and therefore the chance to discover new
 economical energy and mineral deposit is likely to be
 substantial. https://www.oecd.org/env/2075532.pdf By : S.
 Suryantoro and M.H. Mana
-Tags- Geology, Map, Mineral, Natural resources, Indonesia
-Link- https://www.kaggle.com/code/mpwolke/indonesiangeological-
-resource
-Wister, CA Downhole and Seismic
-Data
-Location- Wister, USA
-Description-
+
+**Tags- **Geology, Map, Mineral, Natural resources, Indonesia
+
+**Link- **https://www.kaggle.com/code/mpwolke/indonesiangeological- resource
+
+**Wister, CA Downhole and Seismic Data**
+
+**Location-** Wister, USA
+
+**Description-**
 This submission contains Downhole geophysical logs
 associated with Wister, CA Wells 12-27 and 85-20. The logs
 include Spontaneous Potential (SP), HILT Caliper (HCAL),
@@ -1791,15 +1817,18 @@ The Wister seismic survey area was 13.2 square miles.
 (Resistivity image logs (Schlumberger FMI) in 85-20 indicate
 that maximum horizontal stress (Shmax) is oriented NNE but
 that open fractures are oriented suboptimally).
-Tags- Seismic, Geophysics, Well-log, Geothermal
-Link- https://catalog.data.gov/dataset/wister-ca-downholeand-
+
+**Tags- **Seismic, Geophysics, Well-log, Geothermal
+
+**Link- **https://catalog.data.gov/dataset/wister-ca-downholeand-
 seismic-data-daa1d
-Dixie Valley Engineered
-Geothermal System Exploration
-Methodology Project, Baseline
-Conceptual Model Report
-Location- Multiple
-Description-
+
+**Dixie Valley Engineered Geothermal System Exploration Methodology Project, Baseline
+Conceptual Model Report**
+
+**Location- ** Multiple
+
+**Description-**
 The Engineered Geothermal System (EGS) Exploration
 Methodology Project is developing an exploration approach
 for EGS through the integration of geoscientific data. The
@@ -1826,14 +1855,16 @@ geothermal conceptual model, and (5) the EGS favorability/
 trust mapping. The conceptual model presented applies to
 both the hydrothermal system and EGS in the Dixie Valley
 region.
-Tags- Hydrothermal, Geothermal, Geostatistics
-Link- https://catalog.data.gov/dataset/dixie-valleyengineered-
-geothermal-system-exploration-methodologyproject-
-baseline-concept-fcc87
-Newberry Well 55-29 Stimulation
-Data
-Location- NewBerry, USA
-Description-
+
+**Tags- ** Hydrothermal, Geothermal, Geostatistics
+
+**Link-** https://catalog.data.gov/dataset/dixie-valleyengineered- geothermal-system-exploration-methodologyproject- baseline-concept-fcc87
+
+**Newberry Well 55-29 Stimulation Data**
+
+**Location-** NewBerry, USA
+
+**Description-**
 The Newberry Volcano EGS Demonstration in central
 Oregon, a 3 year project started in 2010, tests recent
 technological advances designed to reduce the cost of
