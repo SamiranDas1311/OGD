@@ -2,15 +2,15 @@
 
 **An Open Geological Database- A wide collection of Geological, Mining, and Seismic datasets for open research.**
 
-Explore datasets, share feedback
+**Explore datasets, share feedback**
 
-Submit your own datasets with the following fields-
+**Submit your own datasets with the following fields-**
 
 **A. Location**- This field indicates whether the dataset is collected from a particular location or country. However, several datasets are collected from multiple locations. Specifying the location enables the users to obtain data as per their requirements.
 
-**B. Type- **This field can mention the sensor that captured the dataset, or specify the type/ application of the dataset.
+**B. Type-**  This field can mention the sensor that captured the dataset, or specify the type/ application of the dataset.
 
-**C. Description- ** This field may contain a short summary of the specification, application, and utility of the dataset so that both the experts, and the general readers can explore, and use these datasets. 
+**C. Description-**  This field may contain a short summary of the specification, application, and utility of the dataset so that both the experts, and the general readers can explore, and use these datasets. 
 
 **D. Tags-** Mention specific keywords that give an overview of the data, and facilitate easy searching.
 
@@ -18,13 +18,13 @@ Submit your own datasets with the following fields-
 
 **List of Datasets in OGD**
 
-Dataset Description
+**Dataset Description**
 
-Location- Greece
+**Location- Greece**
 
-Type- Multispectral
+**Type-** Multispectral
 
-Description- Machine Learning (ML) algorithms had successfully contributed in the creation of automated
+**Description-** Machine Learning (ML) algorithms had successfully contributed in the creation of automated
 methods of recognizing patterns in high-dimensional data. Remote sensing data covers wide geographical areas and
 could be used to solve the problem of the demand of various in-situ data. Lithological mapping using remotely sensed
 data is one of the most challenging applications of ML algorithms. In the framework of the “AI for Geoapplications”
@@ -71,17 +71,17 @@ test_sm - compressed (lossy) jpegs of the training set
 sample_submission.csv - a sample submission file in the
 correct format
 
-Tags- Mining, Remote Sensing, Satellite Image, Aerial
-Photograph, Exploration, Minerals
+**Tags-** Mining, Remote Sensing, Satellite Image, Aerial Photograph, Exploration, Minerals
 
-Link- https://www.kaggle.com/competitions/draper-satelliteimage-
-chronology/data
+**Link-** https://www.kaggle.com/competitions/draper-satelliteimage-chronology/data
 
-Draper Satellite Image Chronology
+**Draper Satellite Image Chronology**
 
-Global Coal Mine Tracker Location- Worldwide
+**Global Coal Mine Tracker**
 
-Description-
+**Location-** Worldwide
+
+**Description-**
 The Global Coal Mine Tracker (GCMT) is a worldwide
 dataset of coal mines and proposed projects. The tracker
 provides asset-level details on ownership structure,
@@ -104,29 +104,28 @@ notifications from this project, please sign up for our mailing
 list. If you have questions about this project, please contact
 the Project Manager, Ryan Driskell Tate.
 
-Tags- Coal Mine, Minerals, Mining
+**Tags-** Coal Mine, Minerals, Mining
 
-Link- https://globalenergymonitor.org/projects/global-coalmine-
-tracker
+**Link-** https://globalenergymonitor.org/projects/global-coalmine-tracker
 
-Location- Worldwide
+**Location-** Worldwide
 
-Description-
+**Description-**
 
 This portal brings together all of the disclosures that mining
 companies have made about their tailings storage facilities. It
 gives communities, investors, regulators, and the media
 unprecedented access to information about mine waste.
 
-Tags- Tailings, Mine, Mineral, Storage Facilities
+**Tags-** Tailings, Mine, Mineral, Storage Facilities
 
-Link- Datalink-https://tailing.grida.no/map/analysis
+**Link-** Datalink-https://tailing.grida.no/map/analysis
 
-Global Tailings Portal
+**Global Tailings Portal**
 
-Global Mining Dataset Location- Worldwide
+**Global Mining Dataset Location-** Worldwide
 
-Description-
+**Description-**
 
 This data set provides spatially explicit estimates of the area
 directly used for surface mining on a global scale. It contains
@@ -145,7 +144,7 @@ direct land used by mining activities, including open cuts,
 tailing dams, waste rock dumps, water ponds, and
 processing infrastructure.
 
-The ZIP file contains:
+**The ZIP file contains:**
 
 The main data set consists of a GeoPackage (GPKG) file,
 including the following variables: ISO3_CODE<string>,
@@ -449,9 +448,9 @@ world's largest mining companies based on revenue as of
 mining company based on revenue in 2022 with a revenue of
 over 24 billion U.S. dollars.
 
-Tags- Mining Economy, Mineral, Industry
+**Tags**- Mining Economy, Mineral, Industry
 
-**Link- **https://www.statista.com/statistics/193416/grossoutput-of-total-us-mining-industry-since-1998/
+****Link-** **https://www.statista.com/statistics/193416/grossoutput-of-total-us-mining-industry-since-1998/
 
 **Gold and Gold mining -**
 
@@ -531,27 +530,27 @@ Russia Mining and Quarrying Volume: Ores & Others: Gold
 Ores & Concentrates data remains active status in CEIC and
 is reported by Federal State Statistics Service. The data is
 categorized under Russia Premium Database’s Mining and
-Quarrying Sector –
+**Quarrying Sector –**
 
-Table RU.BAF001: Mining and Quarrying
-Volume: Ores and Others: Summary.
+**Table RU.BAF001: Mining and Quarrying
+Volume: Ores and Others: Summary.**
 
-Tags- Mining, Quarrying, Mineral Ore,
+**Tags-** Mining, Quarrying, Mineral Ore,
 
-Link- https://www.ceicdata.com/en/russia/mining-andquarrying-
+**Link-** https://www.ceicdata.com/en/russia/mining-andquarrying-
 volume-ores-and-others-summary/mining-andquarrying- volume-ores--others-gold-ores--concentrates
 
-Mining in Morocco Field Value Source minerals.usgs.gov
+**Mining in Morocco Field Value Source minerals.usgs.gov**
 
-Last Updated 25. Oktober 2016, 11:54 (UTC+02:00) Erstellt 25. Oktober 2016, 11:39 (UTC+02:00)
+**Last Updated 25. Oktober 2016, 11:54 (UTC+02:00) Erstellt 25. Oktober 2016, 11:39 (UTC+02:00)**
 
-Link- https://open.africa/de/dataset/mining-in-morocco
+**Link-** https://open.africa/de/dataset/mining-in-morocco
 
-Geological Image Similarity
+**Geological Image Similarity**
 
-Location- Russia
+**Location**- Russia
 
-Description-
+**Description-**
 
 A geology research company wants to create a tool for
 identifying interesting patterns in their imagery data. This tool
@@ -606,20 +605,20 @@ South Wales and Queensland. Australian Geological Survey
 Organisation, Bulletin 241. Australian Geological Survey
 Organisation, Canberra.
 
-\n\n## **Dataset Citation**
+**Dataset Citation**
 \n\nAustralian Geological Survey Organisation (2015) CLM -
 Geology and Petroleum potential image. Bioregional
 Assessment Source Dataset. Viewed 28 September 2017.
 
-Tags- Geology, Petroleum, Well-log
+**Tags-** Geology, Petroleum, Well-log
 
-Link- http://data.bioregionalassessments.gov.au/dataset/3b5b0b66-d0fb-4b79-a0c1-5cd3719b44fc.
+**Link-** http://data.bioregionalassessments.gov.au/dataset/3b5b0b66-d0fb-4b79-a0c1-5cd3719b44fc.
 
-The GeoScour Open dataset
+**The GeoScour Open dataset**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 The BGS GeoScour Open datasets provide a generalised
 overview of the natural characteristics and properties of
@@ -633,15 +632,15 @@ catchment to subcatchment data. The datasets are polygon
 classifications and enabling an indicative catchment
 susceptibility assessment.
 
-Tags- Geology, Geography, River, Natural
+**Tags-** Geology, Geography, River, Natural
 
-Link- https://www.bgs.ac.uk/download/bgs-geoscour-open-2/
+**Link-** https://www.bgs.ac.uk/download/bgs-geoscour-open-2/
 
-Minerals Identification Dataset
+**Minerals Identification Dataset**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 Identification of minerals in the field is a task that is
 wrought with many challenges. Traditional approaches
@@ -652,15 +651,15 @@ However, existing techniques mainly make use of features
 of the minerals under a microscope and tend to favour a
 manual feature extraction pipeline.
 
-Tags- Minerals, Rock, Geology, Sedimentology
+**Tags-** Minerals, Rock, Geology, Sedimentology
 
-Link- https://www.kaggle.com/datasets/asiedubrempong/minerals-identification-dataset
+**Link-** https://www.kaggle.com/datasets/asiedubrempong/minerals-identification-dataset
 
-Mineral export records 2015-2018
+**Mineral export records 2015-2018**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 To provide an enabling environment for the socioeconomic
 development of the Solomon Islands through
@@ -676,9 +675,9 @@ Division, Environment & Conservation Division (ECD),
 Meteorological Services Division, National Disaster
 Management Office (NDMO)
 
-Link- https://solomonislands-data.sprep.org/dataset/mineral-export-records-2015-2018
+**Link-** https://solomonislands-data.sprep.org/dataset/mineral-export-records-2015-2018
 
-Dataset for mineral resource inventory of North Dakota
+**Dataset for mineral resource inventory of North Dakota**
 
 **Location-** North Dakota, USA
 
@@ -2323,12 +2322,17 @@ with sail lines oriented 130° / 310°.
 
 **Description-**
 South Australian Resources Information
-Gateway. SARIG is a digital platform that delivers state
-wide geoscientific and spatial data.
-Tags- Seismic, Geophysics, Geology, Well-log
-Link- https://map.sarig.sa.gov.au/
-Digital Rocks Portal Location- Multiple
-Description-
+Gateway. SARIG is a digital platform that delivers state wide geoscientific and spatial data.
+
+**Tags-** Seismic, Geophysics, Geology, Well-log
+
+**Link-** https://map.sarig.sa.gov.au/
+
+**Digital Rocks Portal**
+
+**Location-** Multiple
+
+**Description-**
 Digital Rocks is a data portal for fast storage and retrieval,
 sharing, organization and analysis of images of varied
 porous micro-structures. It has the purpose of enhancing
@@ -2342,5 +2346,6 @@ measurements (porosity, capillary pressure, permeability,
 electrical, NMR and elastic properties, etc.) required for both
 validation on modeling approaches and the upscaling and
 building of larger (hydro)geological models.
-Tags- Rock, Image, Crystal Structure
-Link- https://www.digitalrocksportal.org/
+
+**Tags-** Rock, Image, Crystal Structure
+**Link-** https://www.digitalrocksportal.org/
