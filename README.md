@@ -2171,10 +2171,16 @@ was created from a merge of recent high-resolution regional
 GSQ airborne magnetic and radiometric surveys and some
 open-file exploration surveys in the North West Mineral
 Province. The 2022 data merge covers a larger region than
-the **[Mount Isa (...)
-Data type- Magnetic
-Created-14 Mar 2022
-Data Format- ZIP, TIFF,
+the 
+
+**[Mount Isa (...)
+
+**Data type-** Magnetic
+
+**Created-** 14 Mar 2022
+
+**Data Format-** ZIP, TIFF
+
 The Strategic Resources Exploration Program
 (https://www.resources.qld.gov.au/mining-resources/
 initiatives/strategic-resources-exploration-program)** (SREP)
@@ -2186,6 +2192,7 @@ Created-11 Jul 2021
 Data Format-PDF
 SEISMIC HEAD UPDATE PROJECT (SHUP) 2D KINGDOM
 PROJECT 2016
+
 A Kingdom software project created by GSQ in 2016 as part
 of the Seismic Header Update Project (SHUP) contained all
 the SEGY included in the project.Data type
