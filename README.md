@@ -33,15 +33,15 @@ characterization of the lithology based on remote sensing data in various pilot 
 test the various ML algorithms, a dataset consisting of 27 ROIs selected mainly from low -vegetated areas, that cover
 2% of the total area of Greece was created.
 
-Tags- Classification, Semantic segmentation, Multisensor data fusion
+**Tags-** Classification, Semantic segmentation, Multisensor data fusion
 
-Link- https://doi.org/10.5281/zenodo.7806929
+**Link-** https://doi.org/10.5281/zenodo.7806929
 
-Dataset for Lithological Mapping
+**Dataset for Lithological Mapping**
 
-Location- California
+**Location-** California
 
-Description-
+**Description-**
 
 This dataset contains over one thousand high-resolution
 images of aerial photographs taken in southern California.
@@ -227,9 +227,9 @@ our global exploration budgets data set.
 
 **Global Mining Locations Data**
 
-**Location- **Worldwide
+**Location-** Worldwide
 
-Description-
+**Description-**
 This data set provides spatially explicit estimates of the area
 directly used for surface mining on a global scale. It contains
 more than 21,000 polygons of activities related to mining,
@@ -273,19 +273,19 @@ geom<point> in geographical coordinates WGS84. The
 overall accuracy calculated from the control points was
 88.4%. For other accuracy metrics see the source link.
 
-validation_points_v1.gpkg
+**validation_points_v1.gpkg**
 
-Link: https://doi.pangaea.de/10.1594/PANGAEA.910894
+**Link:** https://doi.pangaea.de/10.1594/PANGAEA.910894
 
 Always use the following citation when using this data:
 
-Maus, Victor; Giljum, Stefan; Gutschlhofer, Jakob;
+**Maus, Victor; Giljum, Stefan; Gutschlhofer, Jakob;**
 
-Global-scale mining polygons (Version 2)
+**Global-scale mining polygons (Version 2)**
 
-Location- Worldwide
+**Location-** Worldwide
 
-Description-
+**Description-**
 
 This dataset updates the global-scale mining polygons (Version 1) available from https://doi.org/10.1594/
 PANGAEA.910894. It contains 44,929 polygon features, covering 101,583 km² of land used by the global mining
@@ -310,13 +310,13 @@ file, including the variables: MAPPED<string>, REFERENCE<string>, FID<integer> w
 overall accuracy calculated from the control points was 88.3%, Kappa 0.77, F1 score 0.87, producer's accuracy of
 class mine 78.9 % and user's accuracy of class mine 97.2 %.
 
-Link- https://doi.pangaea.de/10.1594/PANGAEA.942325
+**Link-** https://doi.pangaea.de/10.1594/PANGAEA.942325
 
-Minerals Backbone of Economy - (World Mining Data)
+**Minerals Backbone of Economy - (World Mining Data)**
 
-Location- Worldwide
+**Location-** Worldwide
 
-Description-
+**Description-**
 
 Mineral Raw Materials are mineral constituents of the earth's
 crust which are of economic value. In the most
@@ -324,15 +324,15 @@ comprehensive sense this includes the so-called "mine
 output" as well as the output from processing at or near the
 mines (for instance, the up-grading of ores to concentrates).
 
-**Tags- ** Minerals, Mining, Economy, Natural Resource
+**Tags-** Minerals, Mining, Economy, Natural Resource
 
-Link- https://www.world-mining-data.info/?
+**Link-** https://www.world-mining-data.info/?
 
 **World_Mining_Data___Data_Section**
 
 **Mines and Mineral Resources**
 
-**Location- * *Multiple
+**Location-** Multiple
 
 **Description-**
 
@@ -346,15 +346,15 @@ location may be a considerable distance from the mine pit or
 shaft, but from this point on the ground it should be obvious
 how to drive to the mine itself.
 
-Type- Minerals, Mining, Economy, Natural Resource
+**Type-** Minerals, Mining, Economy, Natural Resource
 
-Link- https://data.world/dhs/mines-and-mineral-resources
+**Link-** https://data.world/dhs/mines-and-mineral-resources
 
-Greece Mining Production
+**Greece Mining Production**
 
-Location- Greece
+**Location-** Greece
 
-Description-
+**Description-**
 
 Mining production in Greece increased 6.40 percent in
 February of 2023 over the same month in the previous year.
@@ -365,15 +365,15 @@ of 2015. This page provides - Greece Mining Production actual
 values, historical data, forecast, chart, statistics,
 economic calendar and news.
 
-Tags- Minerals, Mining, Economy, Natural Resource, Production
+**Tags-** Minerals, Mining, Economy, Natural Resource, Production
 
-Link- https://tradingeconomics.com/greece/miningproduction
+**Link-** https://tradingeconomics.com/greece/miningproduction
 
-Coal Mining Operation -Post Mining Treatment Facility
+**Coal Mining Operation -Post Mining Treatment Facility**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 Represents the Primary Facility type Coal Mining Operation
 (CMO) point features for post mining treatment. Post-mining
 discharges are groundwater seeps and flows that occur after
@@ -392,15 +392,15 @@ addition and special handling of acid producing material, are
 being studied in order to help address the remaining 2
 percent.
 
-Tags- Coal Mining, Treatment, Discharge,
+**Tags-** Coal Mining, Treatment, Discharge,
 
-Link- np_clip=https://newdata-padep-1.opendata.arcgis.com/maps/f69db0e0c3d3488cb27eb57a6c439396/about
+**Link-** np_clip=https://newdata-padep-1.opendata.arcgis.com/maps/f69db0e0c3d3488cb27eb57a6c439396/about
 
-Mining Leases
+**Mining Leases**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 This dataset contains Mining Leases issued under the
 Minerals Development Act (Northern Ireland) 1969 by the
@@ -413,15 +413,15 @@ Geodatabase, GeoJSON, Geopackage, KMZ.
 GeoJSON and KML data are in Lat Long, WGS84.
 GeoDatabase, GeoPackage are in Irish National Grid.
 
-Tags- Mining, lease,
+**Tags-** Mining, lease,
 
-Link- https://www.data.gov.uk/dataset/fbd0c401-a655-478ab730-3ad90cc426e4/mining-leases
+**Link-** https://www.data.gov.uk/dataset/fbd0c401-a655-478ab730-3ad90cc426e4/mining-leases
 
-Gross output of total U.S. mining industry 2000-2021
+**Gross output of total U.S. mining industry 2000-2021**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 In 2021, the gross output of the United States mining
 industry amounted to 628.5 billion U.S. dollars. That was an
@@ -509,7 +509,7 @@ of studies have not observed any such association.
 
 **Tags-** Gold, Mining, Mineral
 
-**Link- **https://atena.urv.cat/dataset/5c2973b7-e209-46be-9424-0d52df6e876d
+**Link-** https://atena.urv.cat/dataset/5c2973b7-e209-46be-9424-0d52df6e876d
 
 **Russia Mining and Quarrying Volume: Ores & Others: Gold Ores & Concentrates**
 
@@ -561,26 +561,29 @@ Task is to create the machine learning component for this
 image similarity application. The machine learning
 model should return the top K images that are most similar to
 this image based on a single image input.
-Tags- Geology, Minerals, Rock, Rock
-Link- https://www.kaggle.com/datasets/tanyadayanand/
-geological-image-similarity?select=geological_similarity
-Rock Image Dataset Location- Multiple
-Description-
+
+**Tags-** Geology, Minerals, Rock, Rock
+
+**Link-** https://www.kaggle.com/datasets/tanyadayanand/geological-image-similarity?select=geological_similarity
+
+**Rock Image Dataset Location- Multiple**
+
+**Description-**
+
 This dataset is prepared by a team of Brac University Mars
 Rover Team for the purpose of research of similar rocks
 identification in a mars-like surface. The dataset contains
-three different types of rocks such as - Igneous,
-Metamorphic, sedimentary, etc.
+three different types of rocks such as - Igneous, Metamorphic, sedimentary, etc.
 
-Tags- Rock Image, Geology, Exploration
+**Tags-** Rock Image, Geology, Exploration
 
-Link- https://data.mendeley.com/datasets/7g7zpy9vcb
+**Link-** https://data.mendeley.com/datasets/7g7zpy9vcb
 
-CLM - Geology and Petroleum potential image
+**CLM - Geology and Petroleum potential image**
 
-Location- Multiple
+**Location-** Multiple
 
-Description-
+**Description-**
 
 This dataset was supplied to the Bioregional Assessment
 Programme by a third party and is presented here as
@@ -594,7 +597,9 @@ and editors) (1994a) Geology and petroleum potential of the
 Clarence-Moreton Basin, New South Wales and
 Queensland. Australian Geological Survey Organisation,
 Bulletin 241. Australian Geological Survey Organisation,
-Canberra.\n\n## **Dataset History** \n\nThis is a scanned
+Canberra.
+
+**Dataset History** \n\nThis is a scanned
 image of a geological map which is part of the publication by
 Wells and O'Brien (1994). It shows the geology of the
 Clarence-Moreton Basin.\n\n\n\nIt was geo-referenced using
@@ -770,14 +775,14 @@ Resources Mined Lands permit files.
 
 Last updated at https://data.ny.gov/data.json : 2020-05-14
 Before using the data, download the Terms of Service,
-https://data.ny.gov/download/77gx-ii52/application/pdf, to
-read the data license requirements.
+
+https://data.ny.gov/download/77gx-ii52/application/pdf, to read the data license requirements.
 
 **Tags-** minerals, gravel, stone, aggregate, mines, mined land, energy environment
 
 **Link-** https://data.world/data-ny-gov/va8e-9s3h
 
-****Mines in Africa- ****
+****Mines in Africa-****
 
 **Location-** Multiple
 
@@ -810,11 +815,11 @@ researchers and reporters. This product is a digest in which
 the fields chosen are those most likely to contain valid
 information.
 
-Data Provided By: U.S. Geological Survey
+**Data Provided By: U.S. Geological Survey**
 
-Content date: 20120127
+**Content date: 20120127**
 
-Citation:
+**Citation:**
 http://mrdata.usgs.gov/mrds/
 http://mrdata.usgs.gov/services/mrds?
 request=getcapabilities&service;=WMS&version;=1.1.1
@@ -842,10 +847,9 @@ display and analysis at the national level, and for large
 regional areas. The data should be displayed and analyzed
 at scales appropriate for 1:2,000,000-scale data.
 
-**Tags-** mining, opportunity, minerals, homeland security,
-opportunity homeland security
-
-**Link-**https://data.world/dhs/construction-minerals
+**Tags-** mining, opportunity, minerals, homeland security,opportunity homeland security
+ 
+**Link-** https://data.world/dhs/construction-minerals
 
 **Ferrous Metal Mines Location-**
 
@@ -874,8 +878,9 @@ Ireland. The seamless geological dataset was created from
 the GSI Bedrock 1:100,000 scale digital geological map
 series. The dataset comprises 6 key shape files. 
 
-1) Bed100k.shp - A polygon shapefile that contains bedrock
-geological information on Stratigraphy, Igneous, Lithology
+**1) Bed100k.shp -**
+
+A polygon shapefile that contains bedrock geological information on Stratigraphy, Igneous, Lithology
 and Diagentic codes, their unitnames and brief descriptions.
 Fields: AREA: Area of the polygon in square metres. Field
 type: Double. PERIMETER: Perimeter of polygons in metres:
@@ -891,13 +896,14 @@ magenta, yellow and black percentage. Field types: Double.
 UNITNAME: Name of the geological formation or member.
 Field Type: String. 
 
-2) Index100k.shp - An overlay polygon
+**3) Index100k.shp -** An overlay polygon
 index of 1:100,000 scale printed map sheets. Fields:
 SHEETNO: 1:100,000 printed sheet number. Field type:
 Double.
 
-3) Struc100k.shp (Structural Linework) - A linework
-shapefile that contains structural geological linework codes
+**4) Struc100k.shp (Structural Linework) -**
+  
+   A linework shapefile that contains structural geological linework codes
 and descriptions Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
 structure type. Field type: String. SHEET: The 1:100,000
@@ -910,8 +916,9 @@ structure. Field type: String. DESCRIPT: Description of
 structure type. Field type: String. SLIDE: Name field for
 regionally important slides. Field type: String.
 
-4) Strat100k.shp (Stratigraphic Linework) - A linework shapefile
-that contains stratigraphic geological line codes and
+**7) Strat10igraphic Linework) -**
+  
+  A linework shapefile that contains stratigraphic geological line codes and
 descriptions. Fields: LENGTH: Length of the feature in
 metres: Field type: Float. CODE: Unique identifier for
 stratigraphic line type. Field type: String. SHEET: The
@@ -927,10 +934,12 @@ Field type: String. LITHCODE: Lithological code for narrow
 formations or members which are represented by a line
 rather than a polygon in Bed100k. Field type: String.
 
-5) NZL_GNS_GM6_Victoria_
+**10) NZL_GNS_GM6_Victoria_**
 Range
-Location- New Zealand
-Description-
+
+**Location-** New Zealand
+
+**Description-**
 The Geology of the Victoria Range area
 (NZL_GNS_GM6_geology) comprises a 1:50 000 geological
 dataset covering part of the Buller District on the West Coast
@@ -941,24 +950,25 @@ Last updated at https://catalogue.data.govt.nz/organization/
 gns-science : 2020-09-10
 License - Creative Commons Attribution 3.0 New Zealand
 (CC BY 3.0 NZ)
-TAGS buller district, new zealand, west coast, geology,
-geophysics, igneous petrology, minerals
-Link- https://data.world/nz-gns-science/
-0f28dd6d-2af2-4267-9ee7-1f3c7fe9cc79
-Glass Buttes Well 52-33
-Core Log
+
+TAGS buller district, new zealand, west coast, geology, geophysics, igneous petrology, minerals
+
+**Link-** https://data.world/nz-gns-science/0f28dd6d-2af2-4267-9ee7-1f3c7fe9cc79
+
+**Glass Buttes Well 52-33Core Log**
+
 Location- Multiple
 Description-
 Core log from Glass Buttes Well 52-33, drilled by Geodrill
 Rig 6 in 2014 to a depth of 3000 feet. Logged at 500 ft
 intervals.
 
-Source: https://catalog.data.gov/dataset/glass-butteswell-
+**Source:** https://catalog.data.gov/dataset/glass-butteswell-
 52-33-core-log-5cfce
 
 Last updated at https://catalog.data.gov/organization/doe-
 
-Tags-fractures, geothermal, lithology, minerals, minerology, oregon, temperature
+**Tags-** fractures, geothermal, lithology, minerals, minerology, oregon, temperature
 
 LICENSE CC-BY DICTIONARY
 
@@ -1173,7 +1183,7 @@ of automated interpretation of depositional environments.
 
 **Geo Fossil 1**
 
-**Location- **Multiple
+**Location-** Multiple
 
 **Description-**
 The NSIDC DAAC Advanced Microwave Scanning
@@ -1285,13 +1295,13 @@ supersedes rock data formerly released as "Geochemistry
 of igneous rocks in the US extracted from the PLUTO
 database". The database contains 414,304 records
 
-Link- https://mrdata.usgs.gov/ngdb/rock/
+**Link-** https://mrdata.usgs.gov/ngdb/rock/
 
-Utah FORGE: Rock Properties
+**Utah FORGE: Rock Properties**
 
-Location- Utah, USA
+**Location-** Utah, USA
 
-Description-
+**Description-**
 This is an Excel spreadsheet that contains rock properties
 from several wells in the Utah FORGE study area. This
 includes a map of the wells. Data is described in the Final
@@ -1308,7 +1318,7 @@ LICENSE CC-BY DICTIONARY
 
 2 files, 380 columns, 0 tables·View
 
-**Link- **https://mrdata.usgs.gov/ngdb/rock/
+**Link-** https://mrdata.usgs.gov/ngdb/rock/
 
 **GSI Bedrock Stratigraphic Linework 100k**
 
@@ -1648,7 +1658,7 @@ Last updated at https://catalog.data.gov/organization/doegov: 2021-07-17
 
 **Fallon, Nevada Geophysics and Geochemistry Dataset**
 
-**Location- **Nevada, USA
+**Location-** Nevada, USA
 
 **Description-**
 The data is associated to the Fallon FORGE project and
@@ -1680,8 +1690,10 @@ Geophysical and
 Geospatial Shapefiles
 from the Milford, Utah
 FORGE Project
-Location- Multiple
-Description-
+
+**Location-** Multiple
+
+**Description-**
 Three shapefiles in this submission show the position of
 proposed seismic line surveys. The mid-crustal velocity
 anomaly file shows the extent of an anomalously low Pwave
@@ -1718,12 +1730,12 @@ data preparation. You can also deposit data with us.
 
 **Tags-** Marine, Geology, Geophysics
 
-**Link- **https://www.bgs.ac.uk/geological-data/nationalgeoscience-data-centre/ngdc-data-management/marinegeoscience-
+**Link-** https://www.bgs.ac.uk/geological-data/nationalgeoscience-data-centre/ngdc-data-management/marinegeoscience-
 data-management/
 
 **GEOLOGY:** DATASETS
 
-**Location- **Multiple
+**Location-** Multiple
 
 **Description-** Michigan GIS Open Data Portal- Here you can
 browse, search, preview, and download a variety of Michigan
@@ -1772,9 +1784,9 @@ data facility for solid earth geoscience data.
 
 **Tags-** GIS, Geothermal, Seismic, Geology, Exploration
 
-**Link- **https://gis-michigan.opendata.arcgis.com
+**Link-** https://gis-michigan.opendata.arcgis.com
 
-**Indonesian Geological Resource **
+**Indonesian Geological Resource**
 
 **Location- Indonesia**
 
@@ -1792,9 +1804,9 @@ economical energy and mineral deposit is likely to be
 substantial. https://www.oecd.org/env/2075532.pdf By : S.
 Suryantoro and M.H. Mana
 
-**Tags- **Geology, Map, Mineral, Natural resources, Indonesia
+**Tags-** Geology, Map, Mineral, Natural resources, Indonesia
 
-**Link- **https://www.kaggle.com/code/mpwolke/indonesiangeological- resource
+**Link-** https://www.kaggle.com/code/mpwolke/indonesiangeological- resource
 
 **Wister, CA Downhole and Seismic Data**
 
@@ -1817,15 +1829,15 @@ The Wister seismic survey area was 13.2 square miles.
 that maximum horizontal stress (Shmax) is oriented NNE but
 that open fractures are oriented suboptimally).
 
-**Tags- **Seismic, Geophysics, Well-log, Geothermal
+**Tags-** Seismic, Geophysics, Well-log, Geothermal
 
-**Link- **https://catalog.data.gov/dataset/wister-ca-downholeand-
+**Link-** https://catalog.data.gov/dataset/wister-ca-downholeand-
 seismic-data-daa1d
 
 **Dixie Valley Engineered Geothermal System Exploration Methodology Project, Baseline
 Conceptual Model Report**
 
-**Location- ** Multiple
+**Location-** Multiple
 
 **Description-**
 The Engineered Geothermal System (EGS) Exploration
@@ -1855,7 +1867,7 @@ trust mapping. The conceptual model presented applies to
 both the hydrothermal system and EGS in the Dixie Valley
 region.
 
-**Tags- ** Hydrothermal, Geothermal, Geostatistics
+**Tags-** Hydrothermal, Geothermal, Geostatistics
 
 **Link-** https://catalog.data.gov/dataset/dixie-valleyengineered- geothermal-system-exploration-methodologyproject- baseline-concept-fcc87
 
